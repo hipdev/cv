@@ -28,8 +28,8 @@ git clone https://gitlab.com/julianfullstackdev/cv
 
 ### Fun facts
 
-Este proyecto no usa media queries, pero es responsive 😲
-Es muy rápida --> [`Google Insights`](https://developers.google.com/speed/pagespeed/insights/?hl=es&url=cv.julianux.com)
+Este proyecto no usa media queries, pero es responsive 😲 \
+Es muy rápida --> [`Google Insights`](https://developers.google.com/speed/pagespeed/insights/?hl=es&url=cv.julianux.com) \
 Descubré Now, el [`deployment`](https://zeit.co/juliancho/julian-cv/deployment/k9dcztwdg/source) es público también 😊
 
 MIT License
