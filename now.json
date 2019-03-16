@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "julian-cv",
+  "public": true,
+  "builds": [
+    {
+      "src": "./next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "alias": ["julianux.now.sh", "cv.julianux.com"],
+  "routes": [
+    {
+      "src": "./_next/static/(?:[^/]+/pages|chunks|runtime)/.+",
+      "headers": {
+        "cache-control": "immutable"
+      }
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/$1",
+      "headers": {
+        "x-request-path": "$1"
+      }
+    }
+  ]
+}

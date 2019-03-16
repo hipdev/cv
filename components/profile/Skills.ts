@@ -1,5 +1,5 @@
 const Skills: { name: string; bar: number }[] = [
-  { name: 'Sketch', bar: 40 },
+  { name: 'Sketch', bar: 70 },
   { name: 'Invision', bar: 70 },
   { name: 'ReactJs', bar: 50 },
   { name: 'AWS, Dokku, GCE', bar: 40 },
