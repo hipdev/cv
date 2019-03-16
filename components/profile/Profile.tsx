@@ -35,14 +35,14 @@ const Collection: React.FunctionComponent = () => {
 
       <div className="jobs">
         <h4>Projects / Jobs</h4>
-        <div>
+        <div className="grid-two">
           <div>2011 - 2018</div>
           <div>
             Grandpa / <i>CEO, created my own sofware company.</i>
           </div>
         </div>
 
-        <div>
+        <div className="grid-two">
           <div>2019 - Present</div>
           <div>
             Sapco /{' '}

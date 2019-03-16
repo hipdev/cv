@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const ProfileStyles = styled.div`
-  padding: 5vw 8vw;
+  padding: 3vw 8vw;
 
   h4 {
     font-size: 2.5rem;
@@ -42,9 +42,37 @@ const ProfileStyles = styled.div`
     }
   }
 
-  .studies p,
-  h4 {
-    color: ${props => props.theme.white};
+  .jobs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-column-gap: 2rem;
+
+    h4 {
+      grid-column: 1 / -1;
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+
+  .studies {
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+
+    p,
+    h4 {
+      color: ${props => props.theme.white};
+    }
+  }
+
+  .interests {
+    h4,
+    p {
+      color: ${props => props.theme.white};
+    }
   }
 `;
 
