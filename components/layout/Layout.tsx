@@ -8,7 +8,12 @@ const Layout = ({ title, children }) => (
       <title>{title}</title>
     </Head>
 
-    <div className="content">{children}</div>
+    <div className="content">
+      {children}
+
+      <footer>JÁ</footer>
+      <p className="copy">MIT License</p>
+    </div>
 
     <aside>
       <div className="fixed">

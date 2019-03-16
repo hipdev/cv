@@ -40,6 +40,7 @@ const ProfileStyles = styled.div`
 
     h4 {
       grid-column: 1 / -1;
+      color: ${props => props.theme.white};
     }
   }
 
@@ -50,6 +51,7 @@ const ProfileStyles = styled.div`
 
     h4 {
       grid-column: 1 / -1;
+      color: ${props => props.theme.white};
     }
 
     .grid-two {
@@ -78,6 +80,14 @@ const ProfileStyles = styled.div`
     p {
       color: ${props => props.theme.white};
     }
+  }
+
+  /* SEPARATORS */
+  .skills,
+  .jobs,
+  .studies {
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #353535;
   }
 `;
 

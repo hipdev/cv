@@ -10,6 +10,18 @@ const LayoutStyles = styled.div`
     color: ${props => props.theme.white};
     box-shadow: ${props => props.theme.shadowDark};
     z-index: 1;
+
+    .copy {
+      color: ${props => props.theme.white};
+      font-size: 1.2rem;
+      padding-left: 1rem;
+      padding-top: 1rem;
+    }
+    footer {
+      font-size: 4rem;
+      font-weight: bold;
+      text-align: center;
+    }
   }
   aside {
     position: relative;
