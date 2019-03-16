@@ -1,6 +1,6 @@
 import React from 'react';
 import Meta from './Meta';
-import styled, { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 import GlobalStyle from '../components/styles/generalStyles';
 
 const theme = {

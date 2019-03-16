@@ -12,7 +12,16 @@ const Layout = ({ title, children }) => (
       {children}
 
       <footer>JÁ</footer>
-      <p className="copy">MIT License</p>
+      <p className="copy">
+        MIT License -{' '}
+        <a
+          href="https://gitlab.com/julianfullstackdev/cv"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source
+        </a>
+      </p>
     </div>
 
     <aside>

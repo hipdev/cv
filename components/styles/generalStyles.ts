@@ -28,9 +28,6 @@ const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.black};
     line-height: 3rem;
   }
-  button {
-    cursor: pointer;
-  }
 
   .hide-xs {
     display: none;
@@ -38,26 +35,6 @@ const GlobalStyle = createGlobalStyle`
   .jus-end {
     justify-self: flex-end;
   }
-
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #404040;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
-    color: #404040;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
-    color: #404040;
-  }
-  :-moz-placeholder { /* Firefox 18- */
-    color: #404040;
-  }
-
-  .arrow-right {
-    display: inline-block;
-    width: 10px; height: 10px;
-    transform: rotate(-45deg);
-  }
-
 
 `;
 

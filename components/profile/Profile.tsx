@@ -12,7 +12,7 @@ const Collection: React.FunctionComponent = () => {
           <span>FrontEnd developer</span>
         </div>
         <div className="jus-end">
-          <img src="/static/me.png" title="Julián Álvarez" />
+          <img src="/static/me-opt.png" title="Julián Álvarez" />
         </div>
       </div>
 

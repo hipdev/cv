@@ -16,6 +16,14 @@ const LayoutStyles = styled.div`
       font-size: 1.2rem;
       padding-left: 1rem;
       padding-top: 1rem;
+
+      a {
+        color: #fff;
+
+        :hover {
+          color: #ddd;
+        }
+      }
     }
     footer {
       font-size: 4rem;
@@ -39,11 +47,11 @@ const LayoutStyles = styled.div`
 
     h1 {
       font-size: 7rem;
-      margin-bottom: 2rem;
+      margin-bottom: 5rem;
     }
     h2 {
       font-size: 5rem;
-      margin-top: 2rem;
+      margin-top: 4rem;
     }
     h1,
     h2 {

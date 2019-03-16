@@ -23,7 +23,11 @@ npm run dev
 Para eso puedes usar git:
 
 ```bash
-git clone ...
+git clone https://gitlab.com/julianfullstackdev/cv
 ```
+
+### Fun facts
+
+Este proyecto no usa media queries, pero es responsive 😲
 
 MIT License
