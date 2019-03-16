@@ -59,7 +59,7 @@ const Collection: React.FunctionComponent = () => {
               <span>2004-2009</span> High School / Inem José Felix de Restrepo
             </p>
             <p>
-              <span>2010- Not finished</span> Accountance / Politécnico JIC
+              <span>2010 - Never finished</span> Accountance / Politécnico JIC
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ const Collection: React.FunctionComponent = () => {
         <div>
           <h4> Non-certified studies</h4>
           <p>
-            <span>2010-2011</span> PHP, MySQL - Código facilito
+            <span>2010-2011</span> PHP, MySQL - Código fácilito
           </p>
           <p>
             <span>2011-2012</span> Python - Django Docs, Youtube
@@ -76,14 +76,14 @@ const Collection: React.FunctionComponent = () => {
             <span>2013-2016</span> MeteorJs - Meteor Docs, MeteorHacks
           </p>
           <p>
-            <span>2017-Presente</span> ReactJs, NextJs - Udemy, WesBos Courses,
-            Google
+            <span>2017 - Presente</span> ReactJs, NextJs - Udemy, WesBos
+            Courses, Google
           </p>
           <p>
-            <span>2011-Presente</span> CSS3, HTML5 - Google, Udemy, Youtube
+            <span>2011 - Presente</span> CSS3, HTML5 - Google, Udemy, Youtube
           </p>
           <p>
-            <span>2013-Presente</span> MongoDB - Google, Mongo Docs
+            <span>2013 - Presente</span> MongoDB - Google, Mongo Docs
           </p>
         </div>
       </div>

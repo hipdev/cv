@@ -9,13 +9,17 @@ const LayoutStyles = styled.div`
     background: ${props => props.theme.black};
     color: ${props => props.theme.white};
     box-shadow: ${props => props.theme.shadowDark};
+    z-index: 1;
   }
   aside {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
+    position: relative;
+    .fixed {
+      position: fixed;
+      top: 50%;
+      left: 84%;
+      transform: translate(-50%, -50%);
+      min-width: 29rem;
+    }
     p strong {
       min-width: 8rem;
       display: inline-block;

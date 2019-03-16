@@ -13,11 +13,12 @@ const ProfileStyles = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
     h3 {
       color: #fff;
       font-size: 4rem;
+      line-height: 4.5rem;
     }
     img {
       width: 15rem;
@@ -61,6 +62,10 @@ const ProfileStyles = styled.div`
     display: grid;
     grid-column-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+
+    span {
+      margin-right: 0.5rem;
+    }
 
     p,
     h4 {
