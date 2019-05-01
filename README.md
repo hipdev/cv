@@ -1,6 +1,6 @@
 # Julián Álvarez CV
 
-Este es un proyecto simple de mi CV para PSL.
+Este es un proyecto simple de mi CV.
 
 ## ¿Qué usa?
 
