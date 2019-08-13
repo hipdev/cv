@@ -44,6 +44,18 @@ const ProfileStyles = styled.div`
     }
   }
 
+  .background {
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 2.5rem;
+    }
+    summary {
+      font-style: italic;
+      outline: none;
+      cursor: pointer;
+    }
+  }
+
   .jobs {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
@@ -75,7 +87,8 @@ const ProfileStyles = styled.div`
     }
   }
 
-  .interests {
+  .interests,
+  .background {
     h4,
     p {
       color: ${props => props.theme.white};
@@ -85,6 +98,7 @@ const ProfileStyles = styled.div`
   /* SEPARATORS */
   .skills,
   .jobs,
+  .background,
   .studies {
     padding-bottom: 3rem;
     border-bottom: 1px solid #353535;

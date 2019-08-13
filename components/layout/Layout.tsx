@@ -20,6 +20,14 @@ const Layout = ({ title, children }) => (
           rel="noopener noreferrer"
         >
           Source
+        </a>{' '}
+        -{' '}
+        <a
+          href="https://cv.julianux.com/_src"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Deployment Source
         </a>
       </p>
     </div>
