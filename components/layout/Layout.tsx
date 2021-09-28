@@ -1,18 +1,24 @@
-import Head from 'next/head';
-import PropTypes from 'prop-types';
-import LayoutStyles from './styles/LayoutStyles';
+import Head from 'next/head'
+import PropTypes from 'prop-types'
+import styles from './Layout.module.scss'
 
-const Layout = ({ title, children }) => (
-  <LayoutStyles>
+const Layout = ({
+  title,
+  children,
+}: {
+  title: string
+  children: React.ReactNode
+}) => (
+  <div className={styles.layout}>
     <Head>
       <title>{title}</title>
     </Head>
 
-    <div className="content">
+    <div className={styles.content}>
       {children}
 
       <footer>JÁ</footer>
-      <p className="copy">
+      <p className={styles.copy}>
         MIT License -{' '}
         <a
           href="https://gitlab.com/julianfullstackdev/cv"
@@ -33,7 +39,7 @@ const Layout = ({ title, children }) => (
     </div>
 
     <aside>
-      <div className="fixed">
+      <div className={styles.fixed}>
         <h1>Hi,</h1>
         <div>
           <p>
@@ -56,16 +62,16 @@ const Layout = ({ title, children }) => (
         <h2>Thank you!</h2>
       </div>
     </aside>
-  </LayoutStyles>
-);
+  </div>
+)
 
 Layout.propTypes = {
   title: PropTypes.string,
   children: PropTypes.node.isRequired,
-};
+}
 
 Layout.defaultProps = {
   title: 'Julián Álvarez CV',
-};
+}
 
-export default Layout;
+export default Layout

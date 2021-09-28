@@ -1,18 +1,16 @@
-import styled from 'styled-components';
-
-const LayoutStyles = styled.div`
+.layout {
   display: grid;
   grid-template-columns: 1.8fr 1fr;
   height: 100vh;
 
   .content {
-    background: ${props => props.theme.black};
-    color: ${props => props.theme.white};
-    box-shadow: ${props => props.theme.shadowDark};
+    background: #1b1f22;
+    color: #f1f1f1;
+    box-shadow: 2px 1px 2px #c3c3c3;
     z-index: 1;
 
     .copy {
-      color: ${props => props.theme.white};
+      color: #f1f1f1;
       font-size: 1.2rem;
       padding-left: 1rem;
       padding-top: 1rem;
@@ -58,6 +56,4 @@ const LayoutStyles = styled.div`
       font-weight: bold;
     }
   }
-`;
-
-export default LayoutStyles;
+}

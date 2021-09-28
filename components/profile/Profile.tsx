@@ -1,15 +1,13 @@
-import * as React from 'react';
-import ProfileStyles from './styles/ProfileStyles';
-import Skills from './Skills';
-import Bar from './styles/Bar';
+import Skills from './Skills'
+import styles from './Profile.module.scss'
 
-const Collection: React.FunctionComponent = () => {
-  console.warn('Hi, will be great to talk :) --> (+57) 317 735 86 56');
+const Collection: React.FC = () => {
+  console.warn('Hi, will be great to talk :) --> (+57) 317 735 86 56')
   return (
-    <ProfileStyles>
-      <div className="title">
+    <div className={styles.profile}>
+      <div className={styles.title}>
         <div>
-          <h3>Julián Álvarez</h3>
+          <h3>Julián David</h3>
           <span>FullStack developer</span>
         </div>
         <div className="jus-end">
@@ -17,33 +15,43 @@ const Collection: React.FunctionComponent = () => {
         </div>
       </div>
 
-      <div className="skills">
+      <div className={styles.skills}>
         <h4>Skills</h4>
 
-        {/* MAP SKILLS ARRAY */
+        {
+          /* MAP SKILLS ARRAY */
 
-        Skills.map(skill => {
-          return (
-            <div key={skill.name}>
-              {skill.name}
-              <div className="bar">
-                <Bar width={skill.bar} />
+          Skills.map((skill) => {
+            return (
+              <div key={skill.name}>
+                {skill.name}
+                <div className="bar" />
+
+                <style jsx>
+                  {`
+                    .bar {
+                      width: ${skill.bar}%;
+                      background-color: white;
+                      height: 0.4rem;
+                    }
+                  `}
+                </style>
               </div>
-            </div>
-          );
-        })}
+            )
+          })
+        }
       </div>
 
-      <div className="jobs">
+      <div className={styles.jobs}>
         <h4>Projects / Jobs</h4>
-        <div className="grid-two">
+        <div className={styles.gridTwo}>
           <div>2012 - 2018</div>
           <div>
             Grandpa / <i>CEO, created my own sofware company.</i>
           </div>
         </div>
 
-        <div className="grid-two">
+        <div className={styles.gridTwo}>
           <div>2019 - Present</div>
           <div>
             Sapco /{' '}
@@ -52,11 +60,11 @@ const Collection: React.FunctionComponent = () => {
         </div>
       </div>
 
-      <div className="background">
+      <div className={styles.background}>
         <h4>Background</h4>
 
         <details>
-          <summary className="hola">Reading of 3 min, you are warned.</summary>
+          <summary>Reading of 3 min, you are warned.</summary>
           <p>
             By 2011 I was studying public accounting and enrolled in a free PHP
             class, it all started there. I liked it and then contacted the class
@@ -86,7 +94,7 @@ const Collection: React.FunctionComponent = () => {
         </details>
       </div>
 
-      <div className="studies">
+      <div className={styles.studies}>
         <div>
           <h4>Standard Studies</h4>
           <div>
@@ -122,7 +130,7 @@ const Collection: React.FunctionComponent = () => {
           </p>
         </div>
       </div>
-      <div className="interests">
+      <div className={styles.interests}>
         <div>
           <h4>Interest</h4>
           <p>
@@ -131,8 +139,8 @@ const Collection: React.FunctionComponent = () => {
           </p>
         </div>
       </div>
-    </ProfileStyles>
-  );
-};
+    </div>
+  )
+}
 
-export default Collection;
+export default Collection

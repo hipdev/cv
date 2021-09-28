@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-
-const ProfileStyles = styled.div`
+.profile {
   padding: 3vw 8vw;
 
   h4 {
@@ -40,7 +38,7 @@ const ProfileStyles = styled.div`
 
     h4 {
       grid-column: 1 / -1;
-      color: ${props => props.theme.white};
+      color: #f1f1f1;
     }
   }
 
@@ -63,10 +61,10 @@ const ProfileStyles = styled.div`
 
     h4 {
       grid-column: 1 / -1;
-      color: ${props => props.theme.white};
+      color: #f1f1f1;
     }
 
-    .grid-two {
+    .gridTwo {
       display: grid;
       grid-template-columns: 1fr 2fr;
     }
@@ -83,7 +81,7 @@ const ProfileStyles = styled.div`
 
     p,
     h4 {
-      color: ${props => props.theme.white};
+      color: #f1f1f1;
     }
   }
 
@@ -91,7 +89,7 @@ const ProfileStyles = styled.div`
   .background {
     h4,
     p {
-      color: ${props => props.theme.white};
+      color: #f1f1f1;
     }
   }
 
@@ -103,6 +101,4 @@ const ProfileStyles = styled.div`
     padding-bottom: 3rem;
     border-bottom: 1px solid #353535;
   }
-`;
-
-export default ProfileStyles;
+}
