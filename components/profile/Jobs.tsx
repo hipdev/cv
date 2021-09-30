@@ -46,7 +46,11 @@ const Jobs: React.FC = () => {
             Grandpa /{' '}
             <i>
               CEO, I created a software agency with my brother, we had a
-              product, it was called Cottz, a platform for hospital quotes.
+              product, it was called{' '}
+              <a href="https://cottz.com/" target="_blank" rel="noreferrer">
+                Cottz.
+              </a>
+              A platform for hospital quotes.
             </i>
           </p>
         </div>

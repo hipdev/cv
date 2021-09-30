@@ -1,16 +1,16 @@
-# Julián Álvarez CV
+# Julián David CV
 
-Este es un proyecto simple de mi CV.
+Simple project for my CV.
 
-## ¿Qué usa?
+## Stack
 
-Este proyecto usa principalmente NextJs y Styled-components, ambas implementan como lenguaje JavaScript y ReactJs como librería, esta hosteado en Now, de Zeit.
+This project uses mainly Next.js with Typescript and a simple layout.
 
-El CSS utiliza Grid y no usé frameworks.
+CSS is mainly grid system without frameworks.
 
-### Correr localmente `usando npm`
+### Run locally `using npm`
 
-Instala con [`npm`](https://github.com/segmentio/create-next-app) los paquetes para correr el proyecto, luego corre con npm y ve a localhost:3000 :)
+Install with [`npm`](https://nextjs.org/docs/api-reference/create-next-app) ,then run witn npm and check your browser here localhost:3000 :)
 
 ```bash
 npm install
@@ -18,18 +18,18 @@ npm install
 npm run dev
 ```
 
-### Descargar proyecto
+### Download project
 
-Para eso puedes usar git:
+You can use git or github:
 
 ```bash
-git clone https://gitlab.com/julianfullstackdev/cv
+git clone https://github.com/hipdev/cv.git   or gh repo clone hipdev/cv
 ```
 
 ### Fun facts
 
-Este proyecto no usa media queries, pero es responsive 😲 \
-Es muy rápida --> [`Google Insights`](https://developers.google.com/speed/pagespeed/insights/?hl=es&url=cv.julianux.com) \
-Descubré Now, el [`deployment`](https://cv.julianux.com/_src) es público también 😊
+This project is not using media queries, but is reponsive! 😲 \
+Is very fast --> [`Google Insights`](https://developers.google.com/speed/pagespeed/insights/?hl=es&url=cv.julianux.com) \
+Take a look at Vercel, a great product to deploy your apps [`deployment`](https://julianux.com/_src) deployment source is also public 😊
 
 MIT License
