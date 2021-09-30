@@ -40,3 +40,8 @@ h4 {
 .jus-end {
   justify-self: flex-end;
 }
+
+.close {
+  color: #fff !important;
+  background: #464646 !important;
+}

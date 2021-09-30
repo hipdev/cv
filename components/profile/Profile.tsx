@@ -1,3 +1,4 @@
+import Jobs from './Jobs'
 import styles from './Profile.module.scss'
 import Skills from './Skills'
 
@@ -17,71 +18,7 @@ const Profile: React.FC = () => {
 
       <Skills />
 
-      <div className={styles.jobs}>
-        <h4>Projects / Jobs</h4>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2011</div>
-          <p>
-            <a
-              href="https://lasfincasdelcafe.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LasFincasDelCafe
-            </a>
-            /{' '}
-            <i>
-              My first web project, still working for that client, even after 11
-              years, made with PHP and MySQL
-            </i>
-          </p>
-        </div>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2012 - 2018</div>
-          <p>
-            Grandpa / <i>CEO, created my own sofware company.</i>
-          </p>
-        </div>
-
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2019</div>
-          <p>
-            Sapco /{' '}
-            <i>FullStack dev - ReactJs, GraphQL, Yoga, Prisma, MongoDB.</i>
-          </p>
-        </div>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2020 - August 2021</div>
-          <p>
-            ModelNetwork SAS /<i> Lead Developer - Next.js, TailwindCSS.</i>
-          </p>
-        </div>
-
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>Freelance work</div>
-          <p>
-            <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
-              Mi Cupo
-            </a>
-            <i>
-              Next.js/ TailwindCSS, appointment event system for local churches
-            </i>
-          </p>
-        </div>
-
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>March 2021 - Present</div>
-          <p>
-            <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
-              Tinta Love
-            </a>
-            <i>
-              Next.js/ TailwindCSS / Supabase, working in a marketplace for
-              artists and tattoo studios.
-            </i>
-          </p>
-        </div>
-      </div>
+      <Jobs />
 
       <div className={styles.background}>
         <h4>Background</h4>
