@@ -5,18 +5,19 @@ const SkillsFront: { name: string; bar: number }[] = [
   { name: 'Html5 / CSS3', bar: 90 },
   { name: 'Tailwind / Sass', bar: 80 },
   { name: 'Adobe XD', bar: 40 },
-  { name: 'Figma', bar: 40 },
+  { name: 'Figma', bar: 70 },
   { name: 'SC / StyledJsx', bar: 70 },
   { name: 'Apollo Client', bar: 50 },
   { name: 'Team Work', bar: 85 },
   { name: 'Geek', bar: 100 },
-  { name: 'English', bar: 80 },
+  { name: 'English', bar: 90 },
 ]
 
 const SkillsBack: { name: string; bar: number }[] = [
   { name: 'PostgreSQL', bar: 50 },
   { name: 'Supabase', bar: 80 },
-  { name: 'FireStore', bar: 80 },
+  { name: 'Firestore', bar: 80 },
+  { name: 'Firebase', bar: 60 },
   { name: 'MongoDB', bar: 70 },
   { name: 'Vercel', bar: 60 },
   { name: 'NodeJs', bar: 50 },
