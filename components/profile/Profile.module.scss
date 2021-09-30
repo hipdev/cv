@@ -79,10 +79,6 @@
       display: grid;
       grid-template-columns: 1fr 2fr;
       margin-bottom: 4rem;
-
-      p {
-        color: #999;
-      }
     }
   }
   .year {
@@ -99,19 +95,12 @@
     span {
       margin-right: 0.5rem;
     }
-
-    p,
-    h4 {
-      color: #f1f1f1;
-    }
   }
-
-  .interests,
-  .background {
-    h4,
-    p {
-      color: #f1f1f1;
-    }
+  h4 {
+    color: #f1f1f1;
+  }
+  p {
+    color: #b1b1b1;
   }
 
   /* SEPARATORS */

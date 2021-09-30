@@ -27,11 +27,18 @@ const Profile: React.FC = () => {
           <summary>I like teaching...</summary>
           <p>
             I learned to program as a deliveryman on my motorcycle in 2011, then
-            I taught my younger brother, today he works for Vercel and it is my
-            greatest pride, also my cousin and 4 other friends, we started a
-            company that lasted 5 years, occasionally I teach people to program
-            for free, maybe I'll finish making a youtube channel, who knows, I'm
-            kind of shy.
+            I taught my younger brother, today he{' '}
+            <a
+              href="https://vercel.com/about/fades"
+              target="_blank"
+              rel="noreferrer"
+            >
+              works
+            </a>
+            for Vercel and it is my greatest pride, also my cousin and 4 other
+            friends, we started a company that lasted 5 years, occasionally I
+            teach people to program for free, maybe I'll finish making a youtube
+            channel, who knows, I'm kind of shy.
           </p>
           <p>I like to learn and apply as a team, that's me.</p>
         </details>
@@ -42,10 +49,20 @@ const Profile: React.FC = () => {
           <h4>Related</h4>
           <div>
             <p>
-              Github: <a>Hip Dev</a>
+              Github:{' '}
+              <a
+                href="https://github.com/hipdev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Hip Dev
+              </a>
             </p>
             <p>
-              Personal project: <a>Tinta Love</a>
+              Personal project:{' '}
+              <a href="https://tintalove.com" target="_blank" rel="noreferrer">
+                Tinta Love
+              </a>
             </p>
           </div>
         </div>

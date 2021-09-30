@@ -18,9 +18,9 @@ const Jobs: React.FC = () => {
           return true
         }}
       >
-        <img src="/mi-cupo.png" />
+        <img src="/cupo.png" />
       </PureModal>
-      ;
+
       <div className={styles.jobs}>
         <h4>Projects / Jobs</h4>
         <div className={styles.gridTwo}>
@@ -99,7 +99,7 @@ const Jobs: React.FC = () => {
         <div className={styles.gridTwo}>
           <div className={styles.year}>March 2021 - Present</div>
           <p>
-            <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
+            <a href="https://tintalove.com" target="_blank" rel="noreferrer">
               Tinta Love
             </a>
             <i>

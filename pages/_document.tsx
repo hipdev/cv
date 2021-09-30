@@ -11,7 +11,7 @@ class MyDocument extends Document {
             as="style"
             crossOrigin="anonymous"
           />
-          <link rel="shortcut icon" href="/public/favicon.png" />
+          <link rel="shortcut icon" href="/favicon.png" />
         </Head>
         <body>
           <Main />
