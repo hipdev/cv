@@ -12,7 +12,7 @@ const Profile: React.FC = () => {
           <span>FullStack developer</span>
         </div>
         <div className="jus-end">
-          <img src="/me.jpg" title="Julián David" />
+          <img src="/me.jpg" title="Julián David" width={150} height={267} />
         </div>
       </div>
 
