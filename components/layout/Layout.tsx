@@ -17,7 +17,7 @@ const Layout = ({
     <div className={styles.content}>
       {children}
 
-      <footer>JÁ</footer>
+      <footer>JD</footer>
       <p className={styles.copy}>
         MIT License -{' '}
         <a
@@ -40,7 +40,7 @@ const Layout = ({
 
     <aside>
       <div className={styles.fixed}>
-        <h1>Hi,</h1>
+        <h1>Hey!</h1>
         <div>
           <p>
             <strong>Phone:</strong> (+ 57) 317 735 86 56
@@ -55,11 +55,9 @@ const Layout = ({
         <div>
           <p>
             <strong>City:</strong>
-            Medellín - Colombia
+            Envigado - Colombia
           </p>
         </div>
-
-        <h2>Thank you!</h2>
       </div>
     </aside>
   </div>
@@ -71,7 +69,7 @@ Layout.propTypes = {
 }
 
 Layout.defaultProps = {
-  title: 'Julián Álvarez CV',
+  title: 'Julián David CV',
 }
 
 export default Layout

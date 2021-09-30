@@ -12,7 +12,7 @@ body {
   margin: 0;
   font-size: 1.5rem;
   line-height: 2;
-  font-family: 'Arial';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

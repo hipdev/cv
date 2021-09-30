@@ -1,7 +1,7 @@
-import Skills from './Skills'
 import styles from './Profile.module.scss'
+import Skills from './Skills'
 
-const Collection: React.FC = () => {
+const Profile: React.FC = () => {
   console.warn('Hi, will be great to talk :) --> (+57) 317 735 86 56')
   return (
     <div className={styles.profile}>
@@ -11,39 +11,31 @@ const Collection: React.FC = () => {
           <span>FullStack developer</span>
         </div>
         <div className="jus-end">
-          <img src="/static/me-opt.png" title="Julián Álvarez" />
+          <img src="/me.jpg" title="Julián Álvarez" />
         </div>
       </div>
 
-      <div className={styles.skills}>
-        <h4>Skills</h4>
-
-        {
-          /* MAP SKILLS ARRAY */
-
-          Skills.map((skill) => {
-            return (
-              <div key={skill.name}>
-                {skill.name}
-                <div className="bar" />
-
-                <style jsx>
-                  {`
-                    .bar {
-                      width: ${skill.bar}%;
-                      background-color: white;
-                      height: 0.4rem;
-                    }
-                  `}
-                </style>
-              </div>
-            )
-          })
-        }
-      </div>
+      <Skills />
 
       <div className={styles.jobs}>
         <h4>Projects / Jobs</h4>
+        <div className={styles.gridTwo}>
+          <div>2011</div>
+          <div>
+            <a
+              href="https://lasfincasdelcafe.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LasFincasDelCafe
+            </a>
+            /{' '}
+            <i>
+              My first web project, still working for that client, even after 11
+              years, made with PHP and MySQL
+            </i>
+          </div>
+        </div>
         <div className={styles.gridTwo}>
           <div>2012 - 2018</div>
           <div>
@@ -52,10 +44,28 @@ const Collection: React.FC = () => {
         </div>
 
         <div className={styles.gridTwo}>
-          <div>2019 - Present</div>
+          <div>2019</div>
           <div>
             Sapco /{' '}
             <i>FullStack dev - ReactJs, GraphQL, Yoga, Prisma, MongoDB.</i>
+          </div>
+        </div>
+        <div className={styles.gridTwo}>
+          <div>2020 - August 2021</div>
+          <div>
+            ModelNetwork SAS
+            <i>Lead Developer - Next.js, TailwindCSS.</i>
+          </div>
+        </div>
+        <div className={styles.gridTwo}>
+          <div>Freelance work</div>
+          <div>
+            <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
+              Mi Cupo
+            </a>
+            <i>
+              Next.js/ TailwindCSS, appointment event system for local churches
+            </i>
           </div>
         </div>
       </div>
@@ -64,78 +74,38 @@ const Collection: React.FC = () => {
         <h4>Background</h4>
 
         <details>
-          <summary>Reading of 3 min, you are warned.</summary>
+          <summary>I like teaching...</summary>
           <p>
-            By 2011 I was studying public accounting and enrolled in a free PHP
-            class, it all started there. I liked it and then contacted the class
-            teacher to give me more private lessons. It turned out that he had a
-            company and allowed me to go, after a week seeing my interest he did
-            not charge me for the hours, in return I was his motorcycle
-            messenger (I had an old motorcycle).
+            I learned to program as a deliveryman on my motorcycle in 2011, then
+            I taught my younger brother, today he works for Vercel and it is my
+            greatest pride, also my cousin and 4 other friends, we started a
+            company that lasted 5 years, occasionally I teach people to program
+            for free, maybe I'll finish making a youtube channel, who knows, I'm
+            kind of shy.
           </p>
-          <p>
-            In 2012 I started teaching my younger brother because he spent a lot
-            of time playing on the PC, a few months later I saw his great talent
-            for programming, together we created a software agency, eventually a
-            cousin arrived, then other friends and in our best "moment" we was 7
-            people, we had interns from Peru and Brazil, and we created products
-            for different private and public companies in Colombia, the company
-            lasted 5 years and it was our greatest learning.
-          </p>
-          <p>
-            It ended because we were not growing so much and we made the
-            decision to look for alternatives outside our country, development
-            was better valued outside. My brother now works for Zeit and is my
-            greatest pride, my whole team is now part of very interesting
-            companies, for the moment I am learning again, with humility, maybe
-            in the future I will create a company again, with my entrepreneurial
-            heart.
-          </p>
+          <p>I like to learn and apply as a team, that's me.</p>
         </details>
       </div>
 
       <div className={styles.studies}>
         <div>
-          <h4>Standard Studies</h4>
+          <h4>Related</h4>
           <div>
             <p>
-              <span>2004-2009</span> High School / Inem José Felix de Restrepo
+              Github: <a>Hip Dev</a>
             </p>
             <p>
-              <span>2010 - Never finished</span> Accountance / Politécnico JIC
+              Personal project: <a>Tinta Love</a>
             </p>
           </div>
-        </div>
-
-        <div>
-          <h4> Non-certified studies</h4>
-          <p>
-            <span>2010-2011</span> PHP, MySQL - Código fácilito, ICM Software
-          </p>
-          <p>
-            <span>2011-2012</span> Python - Django Docs, Youtube
-          </p>
-          <p>
-            <span>2013-2016</span> MeteorJs - Meteor Docs, MeteorHacks
-          </p>
-          <p>
-            <span>2017 - Present</span> ReactJs, NextJs - Udemy, WesBos Courses,
-            Google
-          </p>
-          <p>
-            <span>2011 - Present</span> CSS3, HTML5 - Google, Udemy, Youtube
-          </p>
-          <p>
-            <span>2013 - Present</span> MongoDB - Google, Mongo Docs
-          </p>
         </div>
       </div>
       <div className={styles.interests}>
         <div>
           <h4>Interest</h4>
           <p>
-            Animal lover, musicholic, ideas, stories, comedy and the little
-            things that truly matter.
+            Cats, musicholic, tattoos, stories, comedy and the little things
+            that truly matter.
           </p>
         </div>
       </div>
@@ -143,4 +113,4 @@ const Collection: React.FC = () => {
   )
 }
 
-export default Collection
+export default Profile
