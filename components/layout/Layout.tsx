@@ -21,7 +21,7 @@ const Layout = ({
       <p className={styles.copy}>
         MIT License -{' '}
         <a
-          href="https://gitlab.com/julianfullstackdev/cv"
+          href="https://github.com/hipdev/cv"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,11 +29,11 @@ const Layout = ({
         </a>{' '}
         -{' '}
         <a
-          href="https://cv.julianux.com/_src"
+          href="https://julianux.com/_src"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Deployment Source
+          Deployment Source with Vercel
         </a>
       </p>
     </div>
