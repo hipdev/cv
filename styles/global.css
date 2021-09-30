@@ -17,8 +17,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 a {
-  text-decoration: none;
-  color: #1b1f22;
+  text-decoration: underline;
+  padding-right: 1rem;
+
+  color: #ddd;
+  cursor: pointer;
 }
 p,
 h1,

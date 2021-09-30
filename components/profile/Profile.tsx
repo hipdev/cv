@@ -20,8 +20,8 @@ const Profile: React.FC = () => {
       <div className={styles.jobs}>
         <h4>Projects / Jobs</h4>
         <div className={styles.gridTwo}>
-          <div>2011</div>
-          <div>
+          <div className={styles.year}>2011</div>
+          <p>
             <a
               href="https://lasfincasdelcafe.com"
               target="_blank"
@@ -34,39 +34,52 @@ const Profile: React.FC = () => {
               My first web project, still working for that client, even after 11
               years, made with PHP and MySQL
             </i>
-          </div>
+          </p>
         </div>
         <div className={styles.gridTwo}>
-          <div>2012 - 2018</div>
-          <div>
+          <div className={styles.year}>2012 - 2018</div>
+          <p>
             Grandpa / <i>CEO, created my own sofware company.</i>
-          </div>
+          </p>
         </div>
 
         <div className={styles.gridTwo}>
-          <div>2019</div>
-          <div>
+          <div className={styles.year}>2019</div>
+          <p>
             Sapco /{' '}
             <i>FullStack dev - ReactJs, GraphQL, Yoga, Prisma, MongoDB.</i>
-          </div>
+          </p>
         </div>
         <div className={styles.gridTwo}>
-          <div>2020 - August 2021</div>
-          <div>
-            ModelNetwork SAS
-            <i>Lead Developer - Next.js, TailwindCSS.</i>
-          </div>
+          <div className={styles.year}>2020 - August 2021</div>
+          <p>
+            ModelNetwork SAS /<i> Lead Developer - Next.js, TailwindCSS.</i>
+          </p>
         </div>
+
         <div className={styles.gridTwo}>
-          <div>Freelance work</div>
-          <div>
+          <div className={styles.year}>Freelance work</div>
+          <p>
             <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
               Mi Cupo
             </a>
             <i>
               Next.js/ TailwindCSS, appointment event system for local churches
             </i>
-          </div>
+          </p>
+        </div>
+
+        <div className={styles.gridTwo}>
+          <div className={styles.year}>March 2021 - Present</div>
+          <p>
+            <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
+              Tinta Love
+            </a>
+            <i>
+              Next.js/ TailwindCSS / Supabase, working in a marketplace for
+              artists and tattoo studios.
+            </i>
+          </p>
         </div>
       </div>
 
