@@ -6,7 +6,7 @@ Simple project for my CV.
 
 This project uses mainly Next.js with Typescript and a simple layout.
 
-Layout CSS is primary a grid system without frameworks.
+Layout CSS is primary a grid system without frameworks but using SASS.
 
 ### Run locally `using npm`
 
@@ -36,6 +36,6 @@ gh repo clone hipdev/cv
 
 This project is not using media queries, but is reponsive! 😲 \
 Is very fast --> [`Google Insights`](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fjulianux.com) \
-Take a look at Vercel, a great product to deploy your apps [`deployment`](https://julianux.com/_src) deployment source is also public 😊
+Take a look at Vercel, a great product to deploy your apps [`deployment`](https://julianux.com/_src), deployment source is also public 😊
 
 MIT License

@@ -1,11 +1,10 @@
-import * as React from 'react';
-import Layout from '../components/layout/Layout';
-import Profile from '../components/profile/Profile';
+import Layout from '../components/layout/Layout'
+import Profile from '../components/profile/Profile'
 
 const HomePage: React.FunctionComponent = () => (
   <Layout>
     <Profile />
   </Layout>
-);
+)
 
-export default HomePage;
+export default HomePage

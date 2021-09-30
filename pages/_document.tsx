@@ -3,7 +3,7 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="es" style={{ background: '#030308' }}>
+      <Html lang="en" style={{ background: '#030308' }}>
         <Head>
           <link
             rel="preload"
