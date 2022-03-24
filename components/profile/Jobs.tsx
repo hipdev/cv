@@ -35,7 +35,7 @@ const Jobs: React.FC = () => {
             </a>
             /{' '}
             <i>
-              My first web project, still working for that client, even after 11
+              My first web project, still working for that client, even after 12
               years, made with PHP and MySQL
             </i>
           </p>
@@ -47,7 +47,11 @@ const Jobs: React.FC = () => {
             <i>
               CEO, I created a software agency with my brother, we had a
               product, it was called{' '}
-              <a href="https://cottz.com/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.youtube.com/watch?v=Iu6VZ-5BYjE&ab_channel=ParqueE"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Cottz.
               </a>
               A platform for hospital quotes.
@@ -67,14 +71,8 @@ const Jobs: React.FC = () => {
         <div className={styles.gridTwo}>
           <div className={styles.year}>2020 - August 2021</div>
           <p>
-            <a
-              href="https://networkhouse.live/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              ModelNetwork SAS
-            </a>{' '}
-            /<i> Lead Developer - Next.js, Styled Components / FaunaDB.</i>
+            <b>ModelNetwork SAS</b>:
+            <i> Lead Developer - Next.js, Styled Components / FaunaDB.</i>
           </p>
         </div>
 
@@ -97,7 +95,7 @@ const Jobs: React.FC = () => {
         </div>
 
         <div className={styles.gridTwo}>
-          <div className={styles.year}>March 2021 - Present</div>
+          <div className={styles.year}>March 2021 - Octuber 2021</div>
           <p>
             <a href="https://tintalove.com" target="_blank" rel="noreferrer">
               Tinta Love
@@ -106,6 +104,17 @@ const Jobs: React.FC = () => {
               Next.js/ TailwindCSS / Supabase, working in a marketplace for
               artists and tattoo studios.
             </i>
+          </p>
+        </div>
+        <div className={styles.gridTwo}>
+          <div className={styles.year}>Octuber 2021 - Present</div>
+          <p>
+            <a href="https://wander.com" target="_blank" rel="noreferrer">
+              Wander
+            </a>
+            <i>Lead Web developer: Next.js / TailwindCSS / GraphQL</i> <br />.
+            I'm in charge of the Wander website version. We are building happy
+            places for your next workcation.
           </p>
         </div>
       </div>
