@@ -4,7 +4,7 @@ Simple project for my CV.
 
 ## Stack
 
-This project uses mainly Next.js with Typescript and a simple layout.
+This project uses mainly Next.js 13(Using app directory and shared layouts) with Typescript and a simple layout.
 
 Layout CSS is primary a grid system without frameworks but using SASS.
 
