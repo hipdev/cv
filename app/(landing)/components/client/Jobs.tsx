@@ -81,16 +81,15 @@ const Jobs: React.FC = () => {
         <div className={styles.gridTwo}>
           <div className={styles.year}>Freelance work</div>
           <p>
-            <a href="https://mi-cupo.com" target="_blank" rel="noreferrer">
-              Mi Cupo
-            </a>
+            <strong>Mi Cupo: </strong>
             <i>
-              Next.js/ TailwindCSS, appointment event system for local churches{' '}
+              Next.js / TailwindCSS, appointment event system for local churches
+              during the pandemic, it was{' '}
               <span
                 style={{ textDecoration: 'underline', cursor: 'pointer' }}
                 onClick={() => setModal(true)}
               >
-                heavily used
+                heavily used.
               </span>
             </i>
           </p>
@@ -109,14 +108,14 @@ const Jobs: React.FC = () => {
           </p>
         </div>
         <div className={styles.gridTwo}>
-          <div className={styles.year}>Octuber 2021 - Present</div>
+          <div className={styles.year}>Octuber 2021 - April 2023</div>
           <p>
             <a href="https://wander.com" target="_blank" rel="noreferrer">
               Wander
             </a>
-            <i>Lead Web developer: Next.js / TailwindCSS / GraphQL</i> <br />.
-            I'm in charge of the Wander website version. We are building happy
-            places for your next workcation.
+            <i>Lead Web developer: Next.js / TailwindCSS/ DatoCMS / GraphQL.</i>{' '}
+            <br /> I was in charge of the Wander website version. I feel very
+            proud to have built this website with a great team behind.
           </p>
         </div>
       </div>

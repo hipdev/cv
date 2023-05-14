@@ -28,7 +28,7 @@ export default function Page() {
             I learned to program as a deliveryman on my motorcycle in 2011, then
             I taught my younger brother, today he{' '}
             <a
-              href="https://vercel.com/about/fades"
+              href="https://twitter.com/luis_fades"
               target="_blank"
               rel="noreferrer"
             >
