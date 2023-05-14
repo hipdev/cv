@@ -1,9 +1,8 @@
-import Jobs from './Jobs'
-import styles from './Profile.module.scss'
-import Skills from './Skills'
+import Jobs from './components/client/Jobs'
+import Skills from './components/client/Skills'
+import styles from './page.module.scss'
 
-const Profile: React.FC = () => {
-  console.warn('Hi, will be great to talk :) --> (+57) 317 735 86 56')
+export default function Page() {
   return (
     <div className={styles.profile}>
       <div className={styles.title}>
@@ -79,5 +78,3 @@ const Profile: React.FC = () => {
     </div>
   )
 }
-
-export default Profile

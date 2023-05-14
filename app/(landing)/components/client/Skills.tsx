@@ -1,5 +1,7 @@
+'use client'
+
 import { SkillsBack, SkillsFront } from 'lib/skills'
-import styles from './Profile.module.scss'
+import styles from '../../page.module.scss'
 
 const Skills: React.FC = () => {
   return (

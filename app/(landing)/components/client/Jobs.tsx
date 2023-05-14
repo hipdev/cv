@@ -1,7 +1,9 @@
+'use client'
+
 import { useState } from 'react'
 import PureModal from 'react-pure-modal'
 import 'react-pure-modal/dist/react-pure-modal.min.css'
-import styles from './Profile.module.scss'
+import styles from '../../page.module.scss'
 
 const Jobs: React.FC = () => {
   const [modal, setModal] = useState(false)
