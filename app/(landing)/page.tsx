@@ -75,6 +75,17 @@ export default function Page() {
           </p>
         </div>
       </div>
+      <div className={styles.interests}>
+        <div>
+          <h4>Contact info</h4>
+          <p>
+            <strong>Email:</strong> julianfullstackdev@gmail.com
+          </p>
+          <p>
+            <strong>Phone:</strong> (+57) 317 735 86 56
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
