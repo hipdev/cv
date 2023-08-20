@@ -8,7 +8,7 @@ export default function Page() {
       <div className={styles.title}>
         <div>
           <h3>Julián David</h3>
-          <span>FullStack developer</span>
+          <span>Product developer</span>
         </div>
         <div className="jus-end">
           <img src="/me.jpg" title="Julián David" width={150} height={267} />
