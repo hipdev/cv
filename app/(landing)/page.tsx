@@ -3,11 +3,13 @@ import Skills from './components/client/Skills'
 
 export default function Page() {
   return (
-    <div className="flex flex-col">
-      <div>
+    <div className="flex flex-col p-10 px-20 pt-20">
+      <div className="flex justify-between mb-10 items-center">
         <div>
-          <h3>Julián David</h3>
-          <span>Product developer</span>
+          <h3 className="text-4xl font-bold">Julián David</h3>
+          <span className="font-medium text-lg mt-2 text-white/80">
+            Product developer
+          </span>
         </div>
         <div className="jus-end">
           <img src="/me.jpg" title="Julián David" width={150} height={267} />
@@ -19,11 +21,11 @@ export default function Page() {
       <Jobs />
 
       <div>
-        <h4>Background</h4>
+        <h3 className="text-2xl font-semibold mb-5 mt-10">Background</h3>
 
         <details>
           <summary>I like teaching...</summary>
-          <p>
+          <p className="text-white/60">
             I learned to program as a deliveryman on my motorcycle in 2011, then
             I taught my younger brother, today he{' '}
             <a
@@ -38,16 +40,18 @@ export default function Page() {
             teach people to program for free, maybe I'll finish making a youtube
             channel, who knows, I'm kind of shy.
           </p>
-          <p>I like to learn and apply as a team, that's me.</p>
+          <p className="text-white/60">
+            I like to learn and then teach, that's me.
+          </p>
         </details>
       </div>
 
       <div>
         <div>
-          <h4>Related</h4>
+          <h3 className="text-2xl font-semibold mb-5 mt-10">Related</h3>
           <div>
             <p>
-              Github:{' '}
+              <span className="text-white/60">Github: </span>
               <a
                 href="https://github.com/hipdev"
                 target="_blank"
@@ -57,9 +61,9 @@ export default function Page() {
               </a>
             </p>
             <p>
-              Personal project:{' '}
-              <a href="https://tintalove.com" target="_blank" rel="noreferrer">
-                Tinta Love
+              <span className="text-white/60">Current side project: </span>
+              <a href="https://getfavor.app" target="_blank" rel="noreferrer">
+                Favor
               </a>
             </p>
           </div>
@@ -67,16 +71,16 @@ export default function Page() {
       </div>
       <div>
         <div>
-          <h4>Interest</h4>
+          <h3 className="text-2xl font-semibold mb-5 mt-10">Interest</h3>
           <p>
-            Cats, musicholic, tattoos, stories, comedy and the little things
-            that truly matter.
+            My family, some R&B, tattoos, stories, comedy and the little things
+            that truly matter with my people.
           </p>
         </div>
       </div>
       <div>
         <div>
-          <h4>Contact info</h4>
+          <h3 className="text-2xl font-semibold mb-5 mt-10">Contact info</h3>
           <p>
             <strong>Email:</strong> julianfullstackdev@gmail.com
           </p>

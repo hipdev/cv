@@ -5,6 +5,7 @@ const SkillsFront: { name: string; bar: number }[] = [
   { name: 'React Native', bar: 40 },
   { name: 'Html5 / CSS3', bar: 90 },
   { name: 'TailwindCSS / Sass', bar: 80 },
+  { name: 'Nativewind', bar: 80 },
   { name: 'Adobe XD', bar: 40 },
   { name: 'Figma', bar: 70 },
   { name: 'Apollo Client', bar: 50 },
