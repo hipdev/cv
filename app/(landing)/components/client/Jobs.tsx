@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import PureModal from 'react-pure-modal'
 import 'react-pure-modal/dist/react-pure-modal.min.css'
-import styles from '../../page.module.scss'
 
 const Jobs: React.FC = () => {
   const [modal, setModal] = useState(false)
@@ -23,10 +22,10 @@ const Jobs: React.FC = () => {
         <img src="/cupo.png" />
       </PureModal>
 
-      <div className={styles.jobs}>
+      <div>
         <h4>Projects / Jobs</h4>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2011</div>
+        <div>
+          <div>2011</div>
           <p>
             <a
               href="https://lasfincasdelcafe.com"
@@ -42,8 +41,8 @@ const Jobs: React.FC = () => {
             </i>
           </p>
         </div>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2012 - 2018</div>
+        <div>
+          <div>2012 - 2018</div>
           <p>
             Grandpa /{' '}
             <i>
@@ -61,8 +60,8 @@ const Jobs: React.FC = () => {
           </p>
         </div>
 
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2019</div>
+        <div>
+          <div>2019</div>
           <p>
             <a href="https://sapco.co/" target="_blank" rel="noreferrer">
               Sapco
@@ -70,16 +69,16 @@ const Jobs: React.FC = () => {
             / <i>FullStack dev - ReactJs, GraphQL, Yoga, Prisma, MongoDB.</i>
           </p>
         </div>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>2020 - August 2021</div>
+        <div>
+          <div>2020 - August 2021</div>
           <p>
             <b>ModelNetwork SAS</b>:
             <i> Lead Developer - Next.js, Styled Components / FaunaDB.</i>
           </p>
         </div>
 
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>Freelance work</div>
+        <div>
+          <div>Freelance work</div>
           <p>
             <strong>Mi Cupo: </strong>
             <i>
@@ -95,8 +94,8 @@ const Jobs: React.FC = () => {
           </p>
         </div>
 
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>March 2021 - Octuber 2021</div>
+        <div>
+          <div>March 2021 - Octuber 2021</div>
           <p>
             <a href="https://tintalove.com" target="_blank" rel="noreferrer">
               Tinta Love
@@ -107,8 +106,8 @@ const Jobs: React.FC = () => {
             </i>
           </p>
         </div>
-        <div className={styles.gridTwo}>
-          <div className={styles.year}>Octuber 2021 - April 2023</div>
+        <div>
+          <div>Octuber 2021 - April 2023</div>
           <p>
             <a href="https://wander.com" target="_blank" rel="noreferrer">
               Wander

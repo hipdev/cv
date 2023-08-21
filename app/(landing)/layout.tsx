@@ -1,17 +1,15 @@
-import styles from './layout.module.scss'
-
 export default async function LandingLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <div className={styles.layout}>
-      <div className={styles.content}>
+    <div>
+      <div>
         {children}
 
         <footer>JD</footer>
-        <p className={styles.copy}>
+        <p>
           MIT License -{' '}
           <a
             href="https://github.com/hipdev/cv"
@@ -32,7 +30,7 @@ export default async function LandingLayout({
       </div>
 
       <aside>
-        <div className={styles.fixed}>
+        <div>
           <h1>Hey!</h1>
           <div>
             <p>

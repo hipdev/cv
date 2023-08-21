@@ -1,11 +1,10 @@
 import Jobs from './components/client/Jobs'
 import Skills from './components/client/Skills'
-import styles from './page.module.scss'
 
 export default function Page() {
   return (
-    <div className={styles.profile}>
-      <div className={styles.title}>
+    <div className="flex flex-col">
+      <div>
         <div>
           <h3>Julián David</h3>
           <span>Product developer</span>
@@ -19,7 +18,7 @@ export default function Page() {
 
       <Jobs />
 
-      <div className={styles.background}>
+      <div>
         <h4>Background</h4>
 
         <details>
@@ -43,7 +42,7 @@ export default function Page() {
         </details>
       </div>
 
-      <div className={styles.studies}>
+      <div>
         <div>
           <h4>Related</h4>
           <div>
@@ -66,7 +65,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className={styles.interests}>
+      <div>
         <div>
           <h4>Interest</h4>
           <p>
@@ -75,7 +74,7 @@ export default function Page() {
           </p>
         </div>
       </div>
-      <div className={styles.interests}>
+      <div>
         <div>
           <h4>Contact info</h4>
           <p>

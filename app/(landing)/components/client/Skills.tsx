@@ -1,11 +1,10 @@
 'use client'
 
 import { SkillsBack, SkillsFront } from 'lib/skills'
-import styles from '../../page.module.scss'
 
 const Skills: React.FC = () => {
   return (
-    <div className={styles.skills}>
+    <div>
       <h4>Skills</h4>
 
       <h3>Frontend</h3>
