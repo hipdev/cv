@@ -30,8 +30,8 @@
     .skills {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
-      grid-column-gap: 2rem;
-      grid-row-gap: 1rem;
+      grid-column-gap: 1.5rem;
+      grid-row-gap: 0.5rem;
   
       h4 {
         grid-column: 1 / -1;

@@ -13,24 +13,7 @@ const Skills: React.FC = () => {
       {
         /* MAP SKILLS ARRAY */
         SkillsFront.map((skill) => {
-          return (
-            <div key={skill.name}>
-              {skill.name}
-              <div className={styles.bar}>
-                <div className="progress_bar" />
-
-                <style jsx>
-                  {`
-                    .progress_bar {
-                      width: ${skill.bar}%;
-                      background-color: white;
-                      height: 0.4rem;
-                    }
-                  `}
-                </style>
-              </div>
-            </div>
-          )
+          return <div key={skill.name}>{skill.name}</div>
         })
       }
 
@@ -39,24 +22,7 @@ const Skills: React.FC = () => {
       {
         /* MAP SKILLS ARRAY */
         SkillsBack.map((skill) => {
-          return (
-            <div key={skill.name}>
-              {skill.name}
-              <div className={styles.bar}>
-                <div className="progress_bar" />
-
-                <style jsx>
-                  {`
-                    .progress_bar {
-                      width: ${skill.bar}%;
-                      background-color: white;
-                      height: 0.4rem;
-                    }
-                  `}
-                </style>
-              </div>
-            </div>
-          )
+          return <div key={skill.name}>{skill.name}</div>
         })
       }
     </div>

@@ -8,9 +8,6 @@ const SkillsFront: { name: string; bar: number }[] = [
   { name: 'Adobe XD', bar: 40 },
   { name: 'Figma', bar: 70 },
   { name: 'Apollo Client', bar: 50 },
-  { name: 'Team Work', bar: 85 },
-  { name: 'Geek', bar: 100 },
-  { name: 'English', bar: 90 },
 ]
 
 const SkillsBack: { name: string; bar: number }[] = [
