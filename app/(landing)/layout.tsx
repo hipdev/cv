@@ -1,3 +1,5 @@
+import { AiFillGithub } from 'react-icons/ai'
+
 export default async function LandingLayout({
   children,
 }: {
@@ -32,25 +34,18 @@ export default async function LandingLayout({
       </div>
 
       <aside className="w-4/12 bg-zinc-300 text-black p-10 fixed right-0 h-screen">
+        <a
+          href="https://github.com/hipdev/cv"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute hover:bg-black/90 transition-colors bg-black/80  rotate-45 w-40 flex justify-center -top-5 -right-14 h-20 items-end "
+        >
+          <AiFillGithub className="text-white text-4xl" />
+        </a>
         <div>
           <h1 className="text-4xl font-bold">Latest posts</h1>
-          <div>
-            <p>
-              <strong>Phone:</strong> (+ 57) 317 735 86 56
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>Email:</strong>
-              julianfullstackdev@gmail.com
-            </p>
-          </div>
-          <div>
-            <p>
-              <strong>City:</strong>
-              Envigado - Colombia
-            </p>
-          </div>
+
+          <p className="mt-3">Future posts will be here</p>
         </div>
       </aside>
     </div>

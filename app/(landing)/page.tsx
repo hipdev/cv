@@ -26,19 +26,19 @@ export default function Page() {
         <details>
           <summary>I like teaching...</summary>
           <p className="text-white/60">
-            I learned to program as a deliveryman on my motorcycle in 2011, then
-            I taught my younger brother, today he{' '}
+            I learned to program as a delivery man on my motorcycle in 2011,
+            then I taught my younger brother, today he{' '}
             <a
               href="https://twitter.com/luis_fades"
               target="_blank"
               rel="noreferrer"
             >
-              works
+              works{' '}
             </a>
-            for Vercel and it is my greatest pride, also my cousin and 4 other
-            friends, we started a company that lasted 5 years, occasionally I
-            teach people to program for free, maybe I'll finish making a youtube
-            channel, who knows, I'm kind of shy.
+            for Vercel and it is my greatest pride, I also taught a cousin and 4
+            other friends, we started a company that lasted 5 years,
+            occasionally I teach people to program for free, maybe I'll finish
+            making a Youtube channel, who knows, I'm kind of shy.
           </p>
           <p className="text-white/60">
             I like to learn and then teach, that's me.
@@ -73,7 +73,7 @@ export default function Page() {
         <div>
           <h3 className="text-2xl font-semibold mb-5 mt-10">Interest</h3>
           <p>
-            My family, some R&B, tattoos, stories, comedy and the little things
+            My family, hip hop, tattoos, stories, comedy and the little things
             that truly matter with my people.
           </p>
         </div>

@@ -132,6 +132,25 @@ const Jobs: React.FC = () => {
             </p>
           </div>
         </div>
+        <div className="flex gap-3">
+          <div className="w-4/12">April 2023 - Currently</div>
+          <div className="w-8/12">
+            <p className="text-white/70">
+              <a
+                href="https://getfavor.app"
+                target="_blank"
+                rel="noreferrer"
+                className="border-b mr-1 text-white"
+              >
+                Favor
+              </a>
+              Next.js / TailwindCSS/ DatoCMS / GraphQL / React Native /
+              Nativewind.
+              <br /> I am doing a video dating app with a friend from Germany,
+              more news soon.
+            </p>
+          </div>
+        </div>
       </div>
     </>
   )

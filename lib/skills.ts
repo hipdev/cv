@@ -2,7 +2,7 @@ const SkillsFront: { name: string; bar: number }[] = [
   { name: 'ReactJs', bar: 70 },
   { name: 'Next.Js', bar: 90 },
   { name: 'TypeScript', bar: 70 },
-  { name: 'React Native', bar: 40 },
+  { name: 'React Native / Expo', bar: 40 },
   { name: 'Html5 / CSS3', bar: 90 },
   { name: 'TailwindCSS / Sass', bar: 80 },
   { name: 'Nativewind', bar: 80 },

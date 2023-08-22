@@ -6,7 +6,7 @@ Simple project for my CV.
 
 This project uses mainly Next.js 13(Using app directory and shared layouts) with Typescript and a simple layout.
 
-Layout CSS is primary a grid system without frameworks but using SASS.
+Styles are with TailwindCSS.
 
 ### Run locally `using npm`
 
@@ -34,7 +34,7 @@ gh repo clone hipdev/cv
 
 ### Fun facts
 
-This project is not using media queries, but is reponsive! 😲 \
+Headless CMS by Datocms \
 Is very fast --> [`Google Insights`](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fjulianux.com) \
 Take a look at Vercel, a great product to deploy your apps [`deployment`](https://julianux.com/_src), deployment source is also public 😊
 
