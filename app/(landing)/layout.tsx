@@ -1,3 +1,5 @@
+import { performRequest } from 'lib/datocms/fetcher'
+import { GET_POSTS } from 'lib/datocms/queries'
 import { AiFillGithub } from 'react-icons/ai'
 
 export default async function LandingLayout({
@@ -5,6 +7,10 @@ export default async function LandingLayout({
 }: {
   children: React.ReactNode
 }) {
+  const { allPosts } = await performRequest({ query: GET_POSTS })
+
+  console.log(allPosts, 'posts')
+
   return (
     <div className="flex">
       <div className="w-full md:w-8/12 bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
