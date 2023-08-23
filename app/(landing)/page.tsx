@@ -3,16 +3,22 @@ import Skills from './components/client/Skills'
 
 export default function Page() {
   return (
-    <div className="flex flex-col p-10 px-20 pt-20">
+    <div className="flex flex-col p-10 px-10 md:px-20 pt-10">
       <div className="flex justify-between mb-10 items-center">
         <div>
-          <h3 className="text-4xl font-bold">Julián David</h3>
-          <span className="font-medium text-lg mt-2 text-white/80">
+          <h3 className="text-3xl md:text-4xl font-bold">Julián David</h3>
+          <span className="font-medium text-base md:text-lg mt-2 text-white/80">
             Product developer
           </span>
         </div>
-        <div className="jus-end">
-          <img src="/me.jpg" title="Julián David" width={150} height={267} />
+        <div className="h-40 md:h-60 relative">
+          <img
+            src="/me.jpg"
+            title="Julián David"
+            width={150}
+            height={267}
+            className="object-cover w-full h-full"
+          />
         </div>
       </div>
 
@@ -21,7 +27,9 @@ export default function Page() {
       <Jobs />
 
       <div>
-        <h3 className="text-2xl font-semibold mb-5 mt-10">Background</h3>
+        <h3 className="text-2xl font-semibold mb-3 md:mb-5 mt-7 md:mt-10">
+          Background
+        </h3>
 
         <details>
           <summary>I like teaching...</summary>
@@ -48,7 +56,9 @@ export default function Page() {
 
       <div>
         <div>
-          <h3 className="text-2xl font-semibold mb-5 mt-10">Related</h3>
+          <h3 className="text-2xl font-semibold mb-3 md:mb-5 mt-7 md:mt-10">
+            Related
+          </h3>
           <div>
             <p>
               <span className="text-white/60">Github: </span>
@@ -71,7 +81,9 @@ export default function Page() {
       </div>
       <div>
         <div>
-          <h3 className="text-2xl font-semibold mb-5 mt-10">Interest</h3>
+          <h3 className="text-2xl font-semibold mb-3 md:mb-5 mt-7 md:mt-10">
+            Interest
+          </h3>
           <p>
             My family, hip hop, tattoos, stories, comedy and the little things
             that truly matter with my people.
@@ -80,7 +92,9 @@ export default function Page() {
       </div>
       <div>
         <div>
-          <h3 className="text-2xl font-semibold mb-5 mt-10">Contact info</h3>
+          <h3 className="text-2xl font-semibold mb-3 md:mb-5 mt-7 md:mt-10">
+            Contact info
+          </h3>
           <p>
             <strong>Email:</strong> julianfullstackdev@gmail.com
           </p>

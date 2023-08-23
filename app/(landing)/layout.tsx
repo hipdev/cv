@@ -7,10 +7,10 @@ export default async function LandingLayout({
 }) {
   return (
     <div className="flex">
-      <div className="w-8/12 bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
+      <div className="w-full md:w-8/12 bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
         {children}
 
-        <footer className="text-center pt-20 pb-10">
+        <footer className="text-center pt-10 md:pt-20 pb-10 px-5">
           <span className="text-3xl font-bold">JD</span>
           <p>
             MIT License -{' '}
@@ -33,7 +33,7 @@ export default async function LandingLayout({
         </footer>
       </div>
 
-      <aside className="w-4/12 bg-zinc-300 text-black p-10 fixed right-0 h-screen">
+      <aside className="w-full hidden md:block md:w-4/12 bg-zinc-300 text-black p-10 fixed right-0 h-screen">
         <a
           href="https://github.com/hipdev/cv"
           target="_blank"

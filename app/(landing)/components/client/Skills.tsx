@@ -9,7 +9,7 @@ const Skills: React.FC = () => {
 
       <h4 className="font-medium text-xl">Frontend</h4>
 
-      <div className="grid grid-cols-5 text-white/80 font-extralight gap-2">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 text-white/80 font-extralight gap-2">
         {
           /* MAP SKILLS ARRAY */
           SkillsFront.map((skill) => {
@@ -20,7 +20,7 @@ const Skills: React.FC = () => {
 
       <h4 className="font-medium text-xl mt-7">Backend</h4>
 
-      <div className="grid grid-cols-5 text-white/80 font-extralight gap-2">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 text-white/80 font-extralight gap-2">
         {
           /* MAP SKILLS ARRAY */
           SkillsBack.map((skill) => {

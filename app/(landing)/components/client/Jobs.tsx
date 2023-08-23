@@ -24,7 +24,7 @@ const Jobs: React.FC = () => {
 
       <h3 className="text-2xl font-semibold mb-5 mt-10">Projects / Jobs</h3>
 
-      <div className="grid grid-cols-2 gap-10 border-b pb-10 border-b-white/5">
+      <div className="grid md:grid-cols-2 gap-7 md:gap-10 border-b pb-10 border-b-white/5">
         <div className="flex gap-3">
           <div className="w-4/12">2011</div>
           <div className="w-8/12">
