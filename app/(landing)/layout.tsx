@@ -1,22 +1,19 @@
-import StructuredTextWrapper from 'components/common/structured-text-wrapper'
 import { performRequest } from 'lib/datocms/fetcher'
 import { GET_POSTS } from 'lib/datocms/queries'
 import { Post } from 'lib/types/posts'
+import Link from 'next/link'
 import { AiFillGithub } from 'react-icons/ai'
 
-export default async function LandingLayout({
-  children,
-}: {
+export default async function LandingLayout(props: {
   children: React.ReactNode
+  modal: React.ReactNode
 }) {
   const { allPosts } = await performRequest({ query: GET_POSTS })
-
-  console.log(allPosts, 'posts')
 
   return (
     <div className="flex">
       <div className="w-full md:w-8/12 bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
-        <main>{children}</main>
+        <main>{props.children}</main>
 
         <footer className="text-center pt-10 md:pt-20 pb-10 px-5">
           <span className="text-3xl font-bold">JD</span>
@@ -56,14 +53,15 @@ export default async function LandingLayout({
 
           <p className="mt-3">Future posts will be here</p>
           {allPosts.map((post: Post) => (
-            <div key={post.id}>
+            <Link href={`/view/${post.id}`} key={post.id}>
               <p>{post.title}</p>
 
-              <StructuredTextWrapper content={post.content} />
-            </div>
+              {/* <StructuredTextWrapper content={post.content} /> */}
+            </Link>
           ))}
         </div>
       </aside>
+      {props.modal}
     </div>
   )
 }

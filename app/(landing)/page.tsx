@@ -1,5 +1,5 @@
-import Jobs from './components/client/Jobs'
-import Skills from './components/client/Skills'
+import Jobs from './components/client/jobs'
+import Skills from './components/client/skills'
 
 export default function Page() {
   return (
