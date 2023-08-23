@@ -1,5 +1,8 @@
+import { isParagraph } from 'datocms-structured-text-utils'
 import { performRequest } from 'lib/datocms/fetcher'
 import { GET_POSTS } from 'lib/datocms/queries'
+import { Post } from 'lib/types/posts'
+import { StructuredText, renderNodeRule } from 'react-datocms/structured-text'
 import { AiFillGithub } from 'react-icons/ai'
 
 export default async function LandingLayout({
@@ -53,6 +56,19 @@ export default async function LandingLayout({
           <h1 className="text-4xl font-bold">Latest posts</h1>
 
           <p className="mt-3">Future posts will be here</p>
+          {allPosts.map((post: Post) => (
+            <div key={post.id}>
+              <p>{post.title}</p>
+              <StructuredText
+                data={post.content}
+                customNodeRules={[
+                  renderNodeRule(isParagraph, ({ children }) => {
+                    return <p className="text-2xl">{children}</p>
+                  }),
+                ]}
+              />
+            </div>
+          ))}
         </div>
       </aside>
     </div>
