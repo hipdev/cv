@@ -71,9 +71,19 @@ export default function Page() {
               </a>
             </p>
             <p>
+              <span className="text-white/60">LinkedIn: </span>
+              <a
+                href="https://linkedin.com/in/hipdev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Julián David
+              </a>
+            </p>
+            <p>
               <span className="text-white/60">Current side project: </span>
-              <a href="https://getfavor.app" target="_blank" rel="noreferrer">
-                Favor
+              <a href="https://www.uhh.club" target="_blank" rel="noreferrer">
+                Uhh!
               </a>
             </p>
           </div>

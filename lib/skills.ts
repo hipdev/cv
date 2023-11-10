@@ -13,9 +13,12 @@ const SkillsFront: { name: string; bar: number }[] = [
   { name: 'Figma', bar: 70 },
   { name: 'Apollo Client', bar: 50 },
   { name: 'Git', bar: 50 },
+  { name: 'Turborepo', bar: 50 },
 ]
 
 const SkillsBack: { name: string; bar: number }[] = [
+  { name: 'Server Actions', bar: 50 },
+  { name: 'Drizzle', bar: 50 },
   { name: 'PostgreSQL', bar: 50 },
   { name: 'Supabase', bar: 80 },
   { name: 'Firestore', bar: 80 },

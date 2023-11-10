@@ -26,63 +26,69 @@ const Jobs: React.FC = () => {
 
       <div className="grid md:grid-cols-2 gap-7 md:gap-10 border-b pb-10 border-b-white/5">
         <div className="flex gap-3">
-          <div className="w-4/12">2011</div>
+          <div className="w-4/12">September 2023 - Currently</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
-                href="https://lasfincasdelcafe.com"
+                href="https://www.uhh.club"
                 target="_blank"
                 rel="noreferrer"
                 className="border-b mr-1 text-white"
               >
-                LasFincasDelCafe
+                Uhh!
               </a>
-              My first web project, still working for that client, even after 12
-              years, made with PHP and MySQL
+              Next.js / TailwindCSS/ PostgreSQL / Vercel.
+              <br /> I'm part of a new platform for content creators, it will be
+              launched at the beginning of next year.
             </p>
           </div>
         </div>
-        <div className="flex justify-start">
-          <div className="w-4/12">2012 - 2018</div>
+        <div className="flex gap-3">
+          <div className="w-4/12">April 2023 - August 2023</div>
           <div className="w-8/12">
             <p className="text-white/70">
-              <span className="text-white mr-1">Grandpa</span>
-              CEO, I created a software agency with my brother, we had a
-              product, it was called{' '}
               <a
-                href="https://www.youtube.com/watch?v=Iu6VZ-5BYjE&ab_channel=ParqueE"
+                href="https://getfavor.app"
                 target="_blank"
                 rel="noreferrer"
+                className="border-b mr-1 text-white"
               >
-                Cottz.
+                Favor
               </a>
-              A platform for hospital quotes.
+              Next.js / TailwindCSS/ DatoCMS / GraphQL / React Native /
+              Nativewind.
+              <br /> I was doing a video dating app with a friend from Germany,
+              we couldn't get through YC August batch, RIP.
             </p>
           </div>
         </div>
 
         <div className="flex gap-3">
-          <div className="w-4/12">2019</div>
+          <div className="w-4/12">Octuber 2021 - April 2023</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
-                href="https://sapco.co/"
+                href="https://wander.com"
                 target="_blank"
                 rel="noreferrer"
                 className="border-b mr-1 text-white"
               >
-                Sapco
+                Wander
               </a>
-              FullStack dev - ReactJs, GraphQL, Yoga, Prisma, MongoDB.
+              Lead Web developer: Next.js / TailwindCSS/ DatoCMS / GraphQL.
+              <br /> I was in charge of the Wander website version. I feel very
+              proud to have built this website with a great team behind.
             </p>
           </div>
         </div>
+
         <div className="flex gap-3">
-          <div className="w-4/12">2020 - August 2021</div>
+          <div className="w-4/12">March 2021 - Octuber 2021</div>
           <div className="w-8/12">
             <p className="text-white/70">
-              <span className="text-white">ModelNetwork SAS </span>
-              Lead Developer - Next.js, Styled Components / FaunaDB.
+              <span className="mr-1 text-white">Tinta Love</span>
+              Next.js/ TailwindCSS / Supabase, working in a marketplace for
+              artists and tattoo studios.
             </p>
           </div>
         </div>
@@ -105,49 +111,65 @@ const Jobs: React.FC = () => {
         </div>
 
         <div className="flex gap-3">
-          <div className="w-4/12">March 2021 - Octuber 2021</div>
+          <div className="w-4/12">2020 - August 2021</div>
           <div className="w-8/12">
             <p className="text-white/70">
-              <span className="mr-1 text-white">Tinta Love</span>
-              Next.js/ TailwindCSS / Supabase, working in a marketplace for
-              artists and tattoo studios.
+              <span className="text-white">ModelNetwork SAS </span>
+              Lead Developer - Next.js, Styled Components / FaunaDB.
             </p>
           </div>
         </div>
+
         <div className="flex gap-3">
-          <div className="w-4/12">Octuber 2021 - April 2023</div>
+          <div className="w-4/12">2019</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
-                href="https://wander.com"
+                href="https://sapco.co/"
                 target="_blank"
                 rel="noreferrer"
                 className="border-b mr-1 text-white"
               >
-                Wander
+                Sapco
               </a>
-              Lead Web developer: Next.js / TailwindCSS/ DatoCMS / GraphQL.
-              <br /> I was in charge of the Wander website version. I feel very
-              proud to have built this website with a great team behind.
+              FullStack dev - ReactJs, GraphQL, Yoga, Prisma, MongoDB.
             </p>
           </div>
         </div>
+
+        <div className="flex justify-start">
+          <div className="w-4/12">2012 - 2018</div>
+          <div className="w-8/12">
+            <p className="text-white/70">
+              <span className="text-white mr-1">Grandpa</span>
+              CEO, I created a software agency with my brother, we had a
+              product, it was called{' '}
+              <a
+                href="https://www.youtube.com/watch?v=Iu6VZ-5BYjE&ab_channel=ParqueE"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Cottz.
+              </a>
+              A platform for hospital quotes.
+            </p>
+          </div>
+        </div>
+
         <div className="flex gap-3">
-          <div className="w-4/12">April 2023 - Currently</div>
+          <div className="w-4/12">2011</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
-                href="https://getfavor.app"
+                href="https://lasfincasdelcafe.com"
                 target="_blank"
                 rel="noreferrer"
                 className="border-b mr-1 text-white"
               >
-                Favor
+                LasFincasDelCafe
               </a>
-              Next.js / TailwindCSS/ DatoCMS / GraphQL / React Native /
-              Nativewind.
-              <br /> I am doing a video dating app with a friend from Germany,
-              more news soon.
+              My first web project, still working for that client, even after 12
+              years, made with PHP and MySQL
             </p>
           </div>
         </div>
