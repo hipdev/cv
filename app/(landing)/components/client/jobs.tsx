@@ -44,6 +44,24 @@ const Jobs: React.FC = () => {
           </div>
         </div>
         <div className="flex gap-3">
+          <div className="w-4/12">Octuber 2023 - Currently</div>
+          <div className="w-8/12">
+            <p className="text-white/70">
+              <a
+                href="https://www.generationesports.com/"
+                target="_blank"
+                rel="noreferrer"
+                className="border-b mr-1 text-white"
+              >
+                Generation Esports
+              </a>
+              Next.js / TailwindCSS/ Prisma / Turborepo / Vercel.
+              <br /> I am an hourly consultant for their team, mainly giving
+              advice on good practices using Next.js and Vercel.
+            </p>
+          </div>
+        </div>
+        <div className="flex gap-3">
           <div className="w-4/12">April 2023 - August 2023</div>
           <div className="w-8/12">
             <p className="text-white/70">
