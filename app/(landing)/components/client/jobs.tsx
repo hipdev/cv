@@ -44,7 +44,7 @@ const Jobs: React.FC = () => {
           </div>
         </div>
         <div className="flex gap-3">
-          <div className="w-4/12">Octuber 2023 - Currently</div>
+          <div className="w-4/12">October 2023 - Currently</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
@@ -82,7 +82,7 @@ const Jobs: React.FC = () => {
         </div>
 
         <div className="flex gap-3">
-          <div className="w-4/12">Octuber 2021 - April 2023</div>
+          <div className="w-4/12">October 2021 - April 2023</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
@@ -101,7 +101,7 @@ const Jobs: React.FC = () => {
         </div>
 
         <div className="flex gap-3">
-          <div className="w-4/12">March 2021 - Octuber 2021</div>
+          <div className="w-4/12">March 2021 - October 2021</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <span className="mr-1 text-white">Tinta Love</span>
