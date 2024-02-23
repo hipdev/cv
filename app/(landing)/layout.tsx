@@ -12,7 +12,7 @@ export default async function LandingLayout(props: {
 
   return (
     <div className="flex">
-      <div className="w-full md:w-8/12 bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
+      <div className="w-full bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
         <main>{props.children}</main>
 
         <footer className="text-center pt-10 md:pt-20 pb-10 px-5">
@@ -38,7 +38,7 @@ export default async function LandingLayout(props: {
         </footer>
       </div>
 
-      <aside className="w-full hidden md:block md:w-4/12 bg-zinc-300 text-black p-10 fixed right-0 h-screen">
+      <aside className="w-full hidden md:w-4/12 bg-zinc-300 text-black p-10 fixed right-0 h-screen">
         <a
           href="https://github.com/hipdev/cv"
           target="_blank"
