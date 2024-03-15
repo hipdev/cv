@@ -30,7 +30,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={cn(GeistSans.variable, GeistMono.variable)}>
-      <body>{children}</body>
+      <body className="forced-color-adjust-auto">{children}</body>
     </html>
   )
 }

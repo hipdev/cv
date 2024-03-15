@@ -33,24 +33,34 @@ export default function Page() {
 
         <details>
           <summary>I like teaching...</summary>
-          <p className="text-white/60">
-            I learned to program as a delivery man on my motorcycle in 2011,
-            then I taught my younger brother, today he{' '}
-            <a
-              href="https://twitter.com/luis_fades"
-              target="_blank"
-              rel="noreferrer"
-            >
-              works{' '}
-            </a>
-            for Vercel and it is my greatest pride, I also taught a cousin and 4
-            other friends, we started a company that lasted 5 years,
-            occasionally I teach people to program for free, maybe I'll finish
-            making a Youtube channel, who knows, I'm kind of shy.
-          </p>
-          <p className="text-white/60">
-            I like to learn and then teach, that's me.
-          </p>
+          <div className="text-white/60 space-y-3 mt-2">
+            <p>
+              I learned to program while working as a delivery man on my
+              motorcycle back in 2011. Since then, I've had the joy of passing
+              on my knowledge to my younger brother, who now{' '}
+              <a
+                href="https://twitter.com/luis_fades"
+                target="_blank"
+                rel="noreferrer"
+              >
+                works
+              </a>{' '}
+              for Vercel – a source of immense pride for me.
+            </p>
+            <p>
+              {' '}
+              Additionally, I've taught a cousin and four other friends, and
+              together we even started a company that thrived for five years.
+              Though the company eventually closed its doors, I still find joy
+              in occasionally teaching programming for free.{' '}
+            </p>
+            <p>
+              Perhaps one day, I'll gather the courage to start a YouTube
+              channel to share my knowledge, though I must admit, I'm a bit shy.
+              Learning and teaching go hand in hand for me – it's what defines
+              me.
+            </p>
+          </div>
         </details>
       </div>
 

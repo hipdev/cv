@@ -12,7 +12,7 @@ export default async function LandingLayout(props: {
 
   return (
     <div className="flex">
-      <div className="w-full bg-gradient-to-b from-zinc-900 to-zinc-800 text-white">
+      <div className="w-full bg-gradient-to-b from-zinc-900 to-zinc-800 text-white print:bg-neutral-900">
         <main>{props.children}</main>
 
         <footer className="text-center pt-10 md:pt-20 pb-10 px-5">
