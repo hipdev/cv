@@ -89,17 +89,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div>
-        <div>
-          <h3 className="text-2xl font-semibold mb-3 md:mb-5 mt-7 md:mt-10">
-            Interest
-          </h3>
-          <p>
-            My family, hip hop, tattoos, stories, comedy and the little things
-            that truly matter with my people.
-          </p>
-        </div>
-      </div>
+
       <div>
         <div>
           <h3 className="text-2xl font-semibold mb-3 md:mb-5 mt-7 md:mt-10">

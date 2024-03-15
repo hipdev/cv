@@ -1,14 +1,10 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-})
+import { GeistSans } from 'geist/font/sans'
+import { GeistMono } from 'geist/font/mono'
 
 // These styles apply to every route in the application
 import './globals.css'
+import { cn } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: 'Julián David - CV',
@@ -33,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable}`}>
+    <html lang="en" className={cn(GeistSans.variable, GeistMono.variable)}>
       <body>{children}</body>
     </html>
   )
