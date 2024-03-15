@@ -108,9 +108,6 @@ export default function Page() {
           <p>
             <strong>Email:</strong> julianfullstackdev@gmail.com
           </p>
-          <p>
-            <strong>Phone:</strong> (+57) 317 735 86 56
-          </p>
         </div>
       </div>
     </div>
