@@ -26,20 +26,21 @@ const Jobs: React.FC = () => {
 
       <div className="grid md:grid-cols-2 gap-7 md:gap-10 border-b pb-10 border-b-white/5">
         <div className="flex gap-3">
-          <div className="w-4/12">September 2023 - Currently</div>
+          <div className="w-4/12">March 2024 - Currently</div>
           <div className="w-8/12">
             <p className="text-white/70">
               <a
-                href="https://www.uhh.club"
+                href="https://www.blackjackapprenticeship.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="border-b mr-1 text-white"
               >
-                Uhh!
+                BlackJack Apprenticeship
               </a>
-              Next.js / TailwindCSS/ PostgreSQL / Vercel.
-              <br /> I'm part of a new platform for content creators, it will be
-              launched at the beginning of next year.
+              PHP / Python / TypeScript / Swift / Java
+              <br /> I'm a Senior Fullstack developer for their team, currently
+              learning some legacy code and helping them to migrate to a more
+              modern stack.
             </p>
           </div>
         </div>

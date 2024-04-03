@@ -90,12 +90,6 @@ export default function Page() {
                 Julián David
               </a>
             </p>
-            <p>
-              <span className="text-white/60">Current side project: </span>
-              <a href="https://www.uhh.club" target="_blank" rel="noreferrer">
-                Uhh!
-              </a>
-            </p>
           </div>
         </div>
       </div>
