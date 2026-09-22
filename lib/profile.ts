@@ -9,6 +9,15 @@ export type Experience = {
 
 export const recentExperience: Experience[] = [
   {
+    company: 'Coverbase',
+    href: 'https://www.coverbase.com/',
+    role: 'Senior full-stack developer',
+    period: 'Feb 2026 — Present',
+    description:
+      'Led the marketing website’s migration from Webflow to Next.js. Now evolving the platform and using AI workflows and automation to ship content and features faster.',
+    stack: 'Next.js · AI-assisted development · Automation',
+  },
+  {
     company: 'Pika',
     href: 'https://pika.art/',
     role: 'Full-stack product development',
@@ -126,10 +135,38 @@ export const earlierExperience: Experience[] = [
 
 export type Talk = {
   title: string
-  event: string
+  event?: string
+  status: 'upcoming' | 'past'
+  // Keep only the known precision: YYYY, YYYY-MM, or YYYY-MM-DD.
   date: string
+  dateLabel: string
   href?: string
+  description?: string
 }
 
-// Add confirmed talks here. Use an ISO date (YYYY-MM-DD).
-export const talks: Talk[] = []
+export const talks: Talk[] = [
+  {
+    title: 'BoyaConf 2026',
+    event: 'Tunja, Colombia',
+    status: 'upcoming',
+    date: '2026-11',
+    dateLabel: 'Nov 20–21, 2026',
+    href: 'https://boyaca-dev.org/conf/2026/speaker/julian-alvarez-david',
+    description: 'Confirmed speaker. Session details have not been announced yet.',
+  },
+  {
+    title: 'Convex: Simplifying reactivity with React and React Native',
+    event: 'MedellínJS',
+    status: 'past',
+    date: '2024-09-25',
+    dateLabel: 'Sep 25, 2024',
+    href: 'https://www.instagram.com/p/DATkTedxps5/',
+  },
+  {
+    title: 'Meteor.js',
+    status: 'past',
+    date: '2014',
+    dateLabel: '2014',
+    description: 'An early talk on Meteor.js. No recording or event archive is available.',
+  },
+]

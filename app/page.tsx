@@ -101,35 +101,40 @@ export default function Page() {
 
       <section id="talks" className="section section-grid" aria-labelledby="talks-title">
         <h2 id="talks-title">Talks</h2>
-        {talks.length ? (
-          <ul className="space-y-6">
-            {talks.map((talk) => (
-              <li key={`${talk.date}-${talk.title}`}>
-                <h3 className="font-medium">
-                  {talk.href ? (
-                    <a className="text-link" href={talk.href}>
-                      {talk.title} <span aria-hidden="true">↗</span>
-                    </a>
-                  ) : (
-                    talk.title
-                  )}
-                </h3>
-                <p className="mt-1 text-sm text-muted">
-                  {talk.event} ·{' '}
-                  <time dateTime={talk.date}>
-                    {new Date(`${talk.date}T12:00:00Z`).toLocaleDateString('en-US', {
-                      month: 'short',
-                      year: 'numeric',
-                      timeZone: 'UTC',
-                    })}
-                  </time>
-                </p>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="text-secondary">A selection of my talks will be added here soon.</p>
-        )}
+        <div className="space-y-6">
+          <p className="text-secondary">Most of my talks focus on Convex and reactive software.</p>
+          {(['upcoming', 'past'] as const).map((status) => (
+            <div key={status}>
+              <h3 className="mb-3 text-xs font-medium text-muted">
+                {status === 'upcoming' ? 'Upcoming' : 'Past talks'}
+              </h3>
+              <ul className="space-y-6">
+                {talks
+                  .filter((talk) => talk.status === status)
+                  .map((talk) => (
+                    <li key={`${talk.date}-${talk.title}`}>
+                      <h4 className="font-medium">
+                        {talk.href ? (
+                          <a className="text-link" href={talk.href}>
+                            {talk.title} <span aria-hidden="true">↗</span>
+                          </a>
+                        ) : (
+                          talk.title
+                        )}
+                      </h4>
+                      <p className="mt-1 text-sm text-muted">
+                        {talk.event && <>{talk.event} · </>}
+                        <time dateTime={talk.date}>{talk.dateLabel}</time>
+                      </p>
+                      {talk.description && (
+                        <p className="mt-2 text-secondary">{talk.description}</p>
+                      )}
+                    </li>
+                  ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </section>
 
       <section className="section section-grid" aria-labelledby="about-title">

@@ -28,7 +28,7 @@ The project uses Oxfmt and Oxlint, with no ESLint or Prettier configuration or d
 
 Edit `lib/profile.ts` for experience and talks, and `app/page.tsx` for the introduction and other personal copy.
 
-Pika and Goalimpact are dated January 2025–February 2026. ARC is listed as a collaboration without an unconfirmed date. Blackjack Apprenticeship and Generation Esports retain their known start dates; their end dates or ongoing status still need confirmation.
+Coverbase is listed as the current role, starting in February 2026. Pika and Goalimpact are dated January 2025–February 2026. ARC is listed as a collaboration without an unconfirmed date. Blackjack Apprenticeship and Generation Esports retain their known start dates; their end dates or ongoing status still need confirmation.
 
 To add a talk, append an entry to the `talks` array:
 
@@ -36,12 +36,14 @@ To add a talk, append an entry to the `talks` array:
 {
   title: 'Your talk title',
   event: 'Event name',
+  status: 'past', // 'upcoming' for a future appearance
   date: '2026-09-22',
+  dateLabel: 'Sep 22, 2026',
   href: 'https://example.com/recording', // Optional
 }
 ```
 
-Until talks are supplied, the section shows a short placeholder rather than invented entries.
+Talks are grouped into upcoming and past appearances. Preserve date precision: use `2014` when only the year is known, rather than inventing a day. BoyaConf uses the conference dates (November 20–21, 2026); the session title and exact slot are not yet announced. The MedellínJS title is translated into English from the event announcement. The Meteor.js entry notes that no recording or event archive is available. Update an appearance’s status after the event.
 
 ## Write a post with reusable HTML
 
