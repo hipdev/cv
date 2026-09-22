@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
-import Link from 'next/link'
+import { SiteHeader } from '@/components/site-header'
 import { cn } from '@/lib/utils'
 import './globals.css'
 
@@ -29,31 +29,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={cn(inter.variable, 'antialiased')}>
+    <html lang="en" className={cn(inter.variable, 'antialiased')} suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try { document.documentElement.dataset.theme = localStorage.getItem('cv-theme') === 'dark' ? 'dark' : 'light' } catch {}`,
+          }}
+        />
+      </head>
       <body>
         <a href="#main" className="skip-link">
           Skip to content
         </a>
+        <SiteHeader />
         <div className="site-shell">
-          <header className="site-header print:hidden">
-            <Link href="/" aria-label="Julián David, home" className="wordmark">
-              jd<span className="text-muted">.</span>
-            </Link>
-            <nav aria-label="Main navigation" className="flex flex-wrap items-center gap-x-6">
-              <Link className="quiet-link" href="/#work">
-                Work
-              </Link>
-              <Link className="quiet-link" href="/#writing">
-                Writing
-              </Link>
-              <Link className="quiet-link" href="/#talks">
-                Talks
-              </Link>
-              <a className="quiet-link" href="mailto:julianfullstackdev@gmail.com">
-                Contact <span aria-hidden="true">↗</span>
-              </a>
-            </nav>
-          </header>
           {children}
           <footer className="site-footer print:hidden">
             <p>Julián David</p>

@@ -82,6 +82,12 @@ Motion's `useAnimate` mini API enhances visible server-rendered HTML. The introd
 
 Reduced-motion preferences disable the animations. Keyboard activation opens the native disclosure immediately. The native `<details>` remains usable without JavaScript. The print action expands earlier experience and restores its previous state afterward; print styles remove navigation and motion.
 
+## Header and themes
+
+The header becomes fixed when its original slot leaves the viewport. An IntersectionObserver changes its state only at that boundary; Motion adds a 200ms fade and 8px entrance. The reserved slot prevents layout shifts, and anchor offsets keep section headings clear of the fixed bar. Reduced-motion preferences disable the entrance.
+
+The header’s sun/moon button switches between light and dark themes. Light is the default. The choice is stored locally and applied before paint on subsequent visits, without animating theme colors. The toggle also works when browser storage is unavailable. Print styles always use a light background and hide the header.
+
 ## Design references
 
 - [Adil Basri](https://www.imadil.dev/): restrained personal introduction and direct routes to work and contact.
