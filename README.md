@@ -43,7 +43,7 @@ To add a talk, append an entry to the `talks` array:
 }
 ```
 
-Talks are grouped into upcoming and past appearances. Preserve date precision: use `2014` when only the year is known, rather than inventing a day. BoyaConf uses the conference dates (November 20–21, 2026); the session title and exact slot are not yet announced. The MedellínJS title is translated into English from the event announcement. The Meteor.js entry notes that no recording or event archive is available. Update an appearance’s status after the event.
+Talks are grouped into upcoming and past appearances. Preserve date precision: use `2014` when only the year is known, rather than inventing a day. BoyaConf uses the conference dates (November 20–21, 2026), not a confirmed session slot. The BoyaConf and MedellínJS titles are translated into English from the supplied event announcements. The Meteor.js entry notes that no recording or event archive is available. Update an appearance’s status after the event.
 
 ## Write a post with reusable HTML
 

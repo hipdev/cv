@@ -20,7 +20,7 @@ export default function Page() {
               >
                 Julián David
               </h1>
-              <p className="mt-1 text-secondary">Product engineer · Full-stack developer</p>
+              <p className="mt-1 text-secondary">Senior product engineer · Full-stack developer</p>
             </div>
           </div>
           <p className="intro-copy">
@@ -29,8 +29,8 @@ export default function Page() {
             <span className="text-foreground">Next.js and TypeScript.</span>
           </p>
           <p className="mt-4 max-w-[57ch] text-secondary">
-            Building for the web since 2011. I care about useful products, clear interfaces, and
-            sharing what I learn.
+            Over 15 years of experience building for the web. As a Convex Champion, I’m passionate
+            about Convex and reactive programming, an interest that started with Meteor.js in 2014.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-1">
             <a href="mailto:julianfullstackdev@gmail.com" className="text-link">
@@ -75,7 +75,7 @@ export default function Page() {
             </div>
             <div>
               <dt>Connect</dt>
-              <dd>Node.js, PostgreSQL, GraphQL, Supabase</dd>
+              <dd>Convex, Node.js, PostgreSQL, GraphQL, Supabase</dd>
             </div>
             <div>
               <dt>Ship</dt>
@@ -102,7 +102,10 @@ export default function Page() {
       <section id="talks" className="section section-grid" aria-labelledby="talks-title">
         <h2 id="talks-title">Talks</h2>
         <div className="space-y-6">
-          <p className="text-secondary">Most of my talks focus on Convex and reactive software.</p>
+          <p className="text-secondary">
+            As a Convex Champion, I share my enthusiasm for Convex and reactive software through
+            talks and live demos.
+          </p>
           {(['upcoming', 'past'] as const).map((status) => (
             <div key={status}>
               <h3 className="mb-3 text-xs font-medium text-muted">

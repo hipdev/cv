@@ -12,13 +12,14 @@ const inter = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://julianux.com'),
-  title: { default: 'Julián David — Product Engineer', template: '%s — Julián David' },
+  title: { default: 'Julián David — Senior Product Engineer', template: '%s — Julián David' },
   description:
-    'Full-stack product developer working with Next.js and TypeScript. Selected work, writing, and talks by Julián David.',
+    'Senior full-stack product developer and Convex Champion with over 15 years of experience. Selected work, writing, and talks by Julián David.',
   icons: { icon: '/favicon.png' },
   openGraph: {
-    title: 'Julián David — Product Engineer',
-    description: 'Building thoughtful web products with Next.js and TypeScript.',
+    title: 'Julián David — Senior Product Engineer',
+    description:
+      'Senior product engineer and Convex Champion building with Next.js, TypeScript, and reactive software.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Julián David',
