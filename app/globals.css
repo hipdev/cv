@@ -96,9 +96,9 @@
   }
   .text-link {
     display: inline-flex;
-    align-items: baseline;
+    align-items: center;
     gap: 5px;
-    min-height: 24px;
+    min-height: 44px;
     color: var(--page-foreground);
     text-decoration-color: var(--text-muted);
     text-underline-offset: 4px;
@@ -113,6 +113,7 @@
   .portrait {
     width: 64px;
     height: 64px;
+    flex-shrink: 0;
     object-fit: cover;
     object-position: 50% 30%;
     border-radius: 50%;
@@ -320,8 +321,8 @@
   *,
   *::before,
   *::after {
-    transition: none !important;
-    scroll-behavior: auto !important;
+    transition: none;
+    scroll-behavior: auto;
   }
 }
 
@@ -365,7 +366,7 @@
   .earlier-work::details-content {
     content-visibility: visible;
   }
-  .earlier-work > .experience-list {
+  .earlier-work > .motion-content {
     display: grid !important;
   }
   .earlier-work summary {
@@ -374,6 +375,10 @@
   .details-symbol,
   .skip-link {
     display: none;
+  }
+  .motion-content {
+    opacity: 1 !important;
+    transform: none !important;
   }
   a {
     text-decoration: none;

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Entrance, EarlierExperience } from '@/components/motion'
 import Link from 'next/link'
 import { ExperienceList } from '@/components/experience'
 import { PrintButton } from '@/components/print-button'
@@ -8,57 +9,55 @@ import { posts } from '@/lib/posts'
 export default function Page() {
   return (
     <main id="main" tabIndex={-1}>
-      <section className="intro" aria-labelledby="intro-title">
-        <div className="flex items-center gap-5">
-          <Image src="/me.jpg" alt="" width={64} height={64} priority className="portrait" />
-          <div>
-            <h1
-              id="intro-title"
-              className="text-[2rem] font-medium tracking-[-0.055em] sm:text-4xl"
-            >
-              Julián David
-            </h1>
-            <p className="mt-1 text-secondary">Product engineer · Full-stack developer</p>
+      <Entrance>
+        <section className="intro" aria-labelledby="intro-title">
+          <div className="flex items-center gap-5">
+            <Image src="/me.jpg" alt="" width={64} height={64} priority className="portrait" />
+            <div>
+              <h1
+                id="intro-title"
+                className="text-[2rem] font-medium tracking-[-0.055em] sm:text-4xl"
+              >
+                Julián David
+              </h1>
+              <p className="mt-1 text-secondary">Product engineer · Full-stack developer</p>
+            </div>
           </div>
-        </div>
-        <p className="intro-copy">
-          I build web products, from the interface to the logic behind it. My focus is full-stack
-          product development with <span className="text-foreground">Next.js and TypeScript.</span>
-        </p>
-        <p className="mt-4 max-w-[57ch] text-secondary">
-          Building for the web since 2011. I care about useful products, clear interfaces, and
-          sharing what I learn.
-        </p>
-        <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-1">
-          <a href="mailto:julianfullstackdev@gmail.com" className="text-link">
-            Get in touch <span aria-hidden="true">↗</span>
-          </a>
-          <a href="https://github.com/hipdev" className="quiet-link">
-            GitHub <span aria-hidden="true">↗</span>
-          </a>
-          <a href="https://linkedin.com/in/hipdev" className="quiet-link">
-            LinkedIn <span aria-hidden="true">↗</span>
-          </a>
-          <PrintButton />
-        </div>
-        <p className="hidden print:mt-4 print:block">julianfullstackdev@gmail.com · julianux.com</p>
-      </section>
-
+          <p className="intro-copy">
+            I build web products, from the interface to the logic behind it. My focus is full-stack
+            product development with{' '}
+            <span className="text-foreground">Next.js and TypeScript.</span>
+          </p>
+          <p className="mt-4 max-w-[57ch] text-secondary">
+            Building for the web since 2011. I care about useful products, clear interfaces, and
+            sharing what I learn.
+          </p>
+          <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-1">
+            <a href="mailto:julianfullstackdev@gmail.com" className="text-link">
+              Get in touch <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://github.com/hipdev" className="quiet-link">
+              GitHub <span aria-hidden="true">↗</span>
+            </a>
+            <a href="https://linkedin.com/in/hipdev" className="quiet-link">
+              LinkedIn <span aria-hidden="true">↗</span>
+            </a>
+            <PrintButton />
+          </div>
+          <p className="hidden print:mt-4 print:block">
+            julianfullstackdev@gmail.com · julianux.com
+          </p>
+        </section>
+      </Entrance>
       <section id="work" className="section" aria-labelledby="work-title">
         <div className="section-heading">
           <h2 id="work-title">Selected work</h2>
           <span className="section-note">Experience & collaborations</span>
         </div>
         <ExperienceList items={recentExperience} />
-        <details className="earlier-work">
-          <summary>
-            <span>Earlier experience</span>
-            <span className="details-symbol" aria-hidden="true">
-              +
-            </span>
-          </summary>
+        <EarlierExperience>
           <ExperienceList items={earlierExperience} />
-        </details>
+        </EarlierExperience>
       </section>
 
       <section className="section section-grid" aria-labelledby="approach-title">
