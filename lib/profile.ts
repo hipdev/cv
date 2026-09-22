@@ -14,7 +14,7 @@ export const recentExperience: Experience[] = [
     role: 'Senior full-stack developer',
     period: 'Feb 2026 — Present',
     description:
-      'Led the marketing website’s migration from Webflow to Next.js. Now evolving the platform and using AI workflows and automation to ship content and features faster.',
+      'Took the marketing site from Webflow to a custom platform. Today, I build new experiences and use AI workflows and automation to shorten the path from idea to launch.',
     stack: 'Next.js · AI-assisted development · Automation',
   },
   {
@@ -23,7 +23,7 @@ export const recentExperience: Experience[] = [
     role: 'Senior full-stack product developer',
     period: 'Jan 2025 — Feb 2026',
     description:
-      'Contributed to Pika through full-stack product development, building web product experiences with Next.js and TypeScript.',
+      'Helped shape the web experience for Pika’s creative AI platform, turning product ideas into working features across the stack.',
     stack: 'Next.js · TypeScript',
   },
   {
@@ -32,7 +32,7 @@ export const recentExperience: Experience[] = [
     role: 'Senior full-stack product developer',
     period: 'Jan 2025 — Feb 2026',
     description:
-      'Worked with Goalimpact on full-stack product development, connecting user-facing interfaces and application logic with Next.js and TypeScript.',
+      'Developed web features for Goalimpact’s football analytics platform, connecting the user experience with the systems behind it.',
     stack: 'Next.js · TypeScript',
   },
   {
@@ -41,7 +41,7 @@ export const recentExperience: Experience[] = [
     role: 'Senior full-stack product developer · Collaboration',
     period: 'Collaboration',
     description:
-      'Collaborated on ARC Arcade with a focus on full-stack product development, contributing to the web experience with Next.js and TypeScript.',
+      'Joined the ARC Arcade collaboration to bring an interactive web experience to life, contributing both interface work and application logic.',
     stack: 'Next.js · TypeScript',
   },
 ]
@@ -53,7 +53,7 @@ export const earlierExperience: Experience[] = [
     role: 'Senior full-stack developer',
     period: 'Started Mar 2024',
     description:
-      'Worked with the team to understand and maintain legacy systems and support their migration to a modern stack.',
+      'Helped the team navigate a legacy codebase and move toward a modern stack while keeping existing systems running.',
     stack: 'PHP · Python · TypeScript · Swift · Java',
   },
   {
@@ -62,7 +62,7 @@ export const earlierExperience: Experience[] = [
     role: 'Senior engineering consultant',
     period: 'Started Oct 2023',
     description:
-      'Advised the engineering team on Next.js and Vercel best practices through an hourly consulting engagement.',
+      'Served as a technical sounding board for the team, offering practical guidance on building and shipping with Next.js and Vercel.',
     stack: 'Next.js · Tailwind CSS · Prisma · Turborepo · Vercel',
   },
   {
@@ -71,7 +71,7 @@ export const earlierExperience: Experience[] = [
     role: 'Senior product developer',
     period: 'Apr — Aug 2023',
     description:
-      'Built a video dating app with a collaborator in Germany, working across the web and mobile experiences.',
+      'Teamed up with a collaborator in Germany to explore video-first dating, building the product across web and mobile.',
     stack: 'Next.js · React Native · NativeWind · DatoCMS · GraphQL',
   },
   {
@@ -80,21 +80,23 @@ export const earlierExperience: Experience[] = [
     role: 'Senior web developer · Tech lead',
     period: 'Oct 2021 — Apr 2023',
     description:
-      'Led development of the Wander website, working closely with the team to build and deliver the web experience.',
+      'Led the engineering behind Wander’s website, bringing the web experience to life alongside a team I was proud to build with.',
     stack: 'Next.js · Tailwind CSS · DatoCMS · GraphQL',
   },
   {
     company: 'Tinta Love',
     role: 'Senior product developer',
     period: 'Mar — Oct 2021',
-    description: 'Built a marketplace for tattoo artists and studios.',
+    description:
+      'Created a shared digital space for tattoo artists and studios through a dedicated marketplace.',
     stack: 'Next.js · Tailwind CSS · Supabase',
   },
   {
     company: 'ModelNetwork SAS',
     role: 'Senior developer · Tech lead',
     period: '2020 — Aug 2021',
-    description: 'Led application development with Next.js and FaunaDB.',
+    description:
+      'Took the technical lead on application development, working across the web interface and data layer.',
     stack: 'Next.js · Styled Components · FaunaDB',
   },
   {
@@ -103,7 +105,7 @@ export const earlierExperience: Experience[] = [
     role: 'Senior product developer · Freelance',
     period: 'Freelance',
     description:
-      'Built an event reservation system that helped local churches manage attendance during the pandemic.',
+      'Turned a practical need during the pandemic into a reservation tool that helped local churches organize events and manage attendance.',
     stack: 'Next.js · Tailwind CSS',
   },
   {
@@ -111,7 +113,8 @@ export const earlierExperience: Experience[] = [
     href: 'https://sapco.co/',
     role: 'Senior full-stack developer',
     period: '2019',
-    description: 'Developed web applications with React and a GraphQL backend.',
+    description:
+      'Connected web interfaces with backend services, developing applications across the frontend and API layers.',
     stack: 'React · GraphQL Yoga · Prisma · MongoDB',
   },
   {
@@ -119,7 +122,7 @@ export const earlierExperience: Experience[] = [
     role: 'Senior developer · Co-founder & CEO',
     period: '2012 — 2018',
     description:
-      'Co-founded a software agency with my brother. Together, we built Cottz, a platform for hospital quotes.',
+      'Started a software agency with my brother, combining hands-on development with running the business. One of our products was Cottz, a platform for hospital quotes.',
     href: 'https://www.youtube.com/watch?v=Iu6VZ-5BYjE',
     stack: 'Product development · Team leadership',
   },
@@ -128,7 +131,8 @@ export const earlierExperience: Experience[] = [
     href: 'https://lasfincasdelcafe.com',
     role: 'Senior web developer',
     period: '2011',
-    description: 'Built my first web project, beginning a long-term relationship with the client.',
+    description:
+      'My first step into professional web development: a website that grew into a lasting client relationship.',
     stack: 'PHP · MySQL',
   },
 ]
