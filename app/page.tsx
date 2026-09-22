@@ -24,13 +24,18 @@ export default function Page() {
             </div>
           </div>
           <p className="intro-copy">
-            I build web products, from the interface to the logic behind it. My focus is full-stack
-            product development with{' '}
-            <span className="text-foreground">Next.js and TypeScript.</span>
+            I focus on <span className="text-foreground">building quality products</span>, bringing
+            over 15 years of experience to every decision and working with AI tools like Codex,
+            Claude, Claude Design, and Devin to take ideas from concept to launch.
           </p>
-          <p className="mt-4 max-w-[57ch] text-secondary">
-            Over 15 years of experience building for the web. As a Convex Champion, I’m passionate
-            about Convex and reactive programming, an interest that started with Meteor.js in 2014.
+          <p className="mt-4 max-w-[65ch] text-secondary">
+            I build web platforms with Next.js, TypeScript, Tailwind CSS, Convex, and Supabase, and
+            native apps with React Native. My go-to choices are Better Auth for authentication and
+            Stripe for payments.
+          </p>
+          <p className="mt-4 max-w-[65ch] text-secondary">
+            As a Convex Champion, I’m passionate about Convex and reactive programming, an interest
+            that started with Meteor.js in 2014.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-1">
             <a href="mailto:julianfullstackdev@gmail.com" className="text-link">
@@ -70,12 +75,24 @@ export default function Page() {
           </p>
           <dl className="skill-list">
             <div>
-              <dt>Build</dt>
+              <dt>Web</dt>
               <dd>Next.js, React, TypeScript, Tailwind CSS</dd>
             </div>
             <div>
-              <dt>Connect</dt>
-              <dd>Convex, Node.js, PostgreSQL, GraphQL, Supabase</dd>
+              <dt>Mobile</dt>
+              <dd>React Native</dd>
+            </div>
+            <div>
+              <dt>Backend</dt>
+              <dd>Convex, Supabase, Node.js, PostgreSQL, GraphQL</dd>
+            </div>
+            <div>
+              <dt>Auth & pay</dt>
+              <dd>Better Auth, Stripe</dd>
+            </div>
+            <div>
+              <dt>AI tools</dt>
+              <dd>Codex, Claude, Claude Design, Devin</dd>
             </div>
             <div>
               <dt>Ship</dt>

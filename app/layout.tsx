@@ -14,12 +14,12 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://julianux.com'),
   title: { default: 'Julián David — Senior Product Engineer', template: '%s — Julián David' },
   description:
-    'Senior full-stack product developer and Convex Champion with over 15 years of experience. Selected work, writing, and talks by Julián David.',
+    'Senior product engineer and Convex Champion combining 15+ years of experience with AI to build quality web platforms and native apps.',
   icons: { icon: '/favicon.png' },
   openGraph: {
     title: 'Julián David — Senior Product Engineer',
     description:
-      'Senior product engineer and Convex Champion building with Next.js, TypeScript, and reactive software.',
+      'Building quality products with AI, Next.js, TypeScript, Convex, Supabase, and React Native.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Julián David',
