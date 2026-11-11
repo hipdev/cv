@@ -11,20 +11,29 @@ export const recentExperience: Experience[] = [
   {
     company: 'Coverbase',
     href: 'https://www.coverbase.com/',
-    role: 'Senior full-stack developer',
+    role: 'Senior full-stack developer · AI Engineer',
     period: 'Feb 2026 — Present',
     description:
-      'Took the marketing site from Webflow to a custom platform. Today, I build new experiences and use AI workflows and automation to shorten the path from idea to launch.',
-    stack: 'Next.js · AI-assisted development · Automation',
+      'Build features for an agentic AI platform for third-party risk management, integrating LLMs through the Claude API to automate risk assessment workflows. Led the marketing site’s migration from Webflow to Next.js and use Claude Code and Codex to accelerate delivery across the product.',
+    stack: 'Next.js · Python · Convex · TypeScript · Claude API · Claude Code · Codex',
   },
   {
     company: 'Pika',
     href: 'https://pika.art/',
-    role: 'Senior full-stack product developer',
+    role: 'Senior full-stack engineer · via Tinloof',
     period: 'Jan 2025 — Feb 2026',
     description:
-      'Helped shape the web experience for Pika’s creative AI platform, turning product ideas into working features across the stack.',
-    stack: 'Next.js · TypeScript',
+      'At Tinloof, a Berlin-based engineering agency and Vercel partner, helped build and evolve Pika’s web platform for AI video generation. Developed AI generation workflows across the stack and used Claude Code to support delivery and code quality.',
+    stack: 'Next.js · TypeScript · Python · Supabase · Claude Code',
+  },
+  {
+    company: 'Wander',
+    href: 'https://wander.com',
+    role: 'Lead full-stack developer',
+    period: 'Oct 2021 — Apr 2023',
+    description:
+      'Joined as the third engineer and led web development from day one. Built the booking system and Stripe checkout end to end, worked across the guest experience and WanderOS, and built the web experience for Wander REIT.',
+    stack: 'Next.js · React · TypeScript · Stripe · Tailwind CSS · Team leadership',
   },
   {
     company: 'Goalimpact',
@@ -51,7 +60,7 @@ export const earlierExperience: Experience[] = [
     company: 'Blackjack Apprenticeship',
     href: 'https://www.blackjackapprenticeship.com/',
     role: 'Senior full-stack developer',
-    period: 'Started Mar 2024',
+    period: 'Mar — Aug 2024',
     description:
       'Helped the team navigate a legacy codebase and move toward a modern stack while keeping existing systems running.',
     stack: 'PHP · Python · TypeScript · Swift · Java',
@@ -60,7 +69,7 @@ export const earlierExperience: Experience[] = [
     company: 'Generation Esports',
     href: 'https://www.generationesports.com/',
     role: 'Senior engineering consultant',
-    period: 'Started Oct 2023',
+    period: 'Oct 2023 — Jul 2025',
     description:
       'Served as a technical sounding board for the team, offering practical guidance on building and shipping with Next.js and Vercel.',
     stack: 'Next.js · Tailwind CSS · Prisma · Turborepo · Vercel',
@@ -73,15 +82,6 @@ export const earlierExperience: Experience[] = [
     description:
       'Teamed up with a collaborator in Germany to explore video-first dating, building the product across web and mobile.',
     stack: 'Next.js · React Native · NativeWind · DatoCMS · GraphQL',
-  },
-  {
-    company: 'Wander',
-    href: 'https://wander.com',
-    role: 'Senior web developer · Tech lead',
-    period: 'Oct 2021 — Apr 2023',
-    description:
-      'Led the engineering behind Wander’s website, bringing the web experience to life alongside a team I was proud to build with.',
-    stack: 'Next.js · Tailwind CSS · DatoCMS · GraphQL',
   },
   {
     company: 'Tinta Love',
@@ -120,11 +120,26 @@ export const earlierExperience: Experience[] = [
   {
     company: 'Grandpa',
     role: 'Senior developer · Co-founder & CEO',
-    period: '2012 — 2018',
+    period: 'Jan 2013 — Dec 2017',
     description:
       'Started a software agency with my brother, combining hands-on development with running the business. One of our products was Cottz, a platform for hospital quotes.',
     href: 'https://www.youtube.com/watch?v=Iu6VZ-5BYjE',
     stack: 'Product development · Team leadership',
+  },
+  {
+    company: 'Alquilesufinca.com',
+    role: 'Webmaster',
+    period: 'Jan — Dec 2012',
+    description: 'Developed the website and back office for a vacation rental business.',
+    stack: 'Web development · Back-office systems',
+  },
+  {
+    company: 'ICM Software',
+    role: 'Practice assistant',
+    period: 'Jan 2011 — Dec 2012',
+    description:
+      'Moved from public accounting studies into programming, learning through hands-on work building web platforms and developing the foundations of my software career.',
+    stack: 'PHP · MySQL · jQuery · HTML5 · CSS3',
   },
   {
     company: 'Las Fincas del Café',

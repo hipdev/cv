@@ -28,7 +28,11 @@ The project uses Oxfmt and Oxlint, with no ESLint or Prettier configuration or d
 
 Edit `lib/profile.ts` for experience and talks, and `app/page.tsx` for the introduction and other personal copy.
 
-Coverbase is listed as the current role, starting in February 2026. Pika and Goalimpact are dated January 2025–February 2026. ARC is listed as a collaboration without an unconfirmed date. Blackjack Apprenticeship and Generation Esports retain their known start dates; their end dates or ongoing status still need confirmation.
+The CV positions Julián as an AI Engineer and Senior Full-Stack Engineer, covering both building AI features and using AI throughout daily development. The introduction, skills, and page metadata share this focus.
+
+Experience was reconciled with LinkedIn on November 11, 2026. Coverbase is the current role, starting in February 2026, with core-product work and Claude API integrations alongside the marketing platform. Pika is identified as work through Tinloof (January 2025–February 2026). Wander is highlighted in selected work. LinkedIn confirms Blackjack Apprenticeship as March–August 2024, Generation Esports as October 2023–July 2025, and Grandpa as January 2013–December 2017; it also supplies the Alquilesufinca.com and ICM Software entries. Existing Goalimpact and ARC collaborations and other CV-only experience are retained. ARC has no confirmed date.
+
+Herdr, Engram, and Workers AI are included from the owner’s account of their current workflow, alongside Claude Code and Codex. Keep tool names aligned with the owner’s usage; do not infer additional tools, metrics, or project outcomes.
 
 To add a talk, append an entry to the `talks` array:
 

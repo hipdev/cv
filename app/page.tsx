@@ -20,22 +20,23 @@ export default function Page() {
               >
                 Julián David
               </h1>
-              <p className="mt-1 text-secondary">Senior product engineer · Full-stack developer</p>
+              <p className="mt-1 text-secondary">AI Engineer · Senior Full-Stack Engineer</p>
             </div>
           </div>
           <p className="intro-copy">
-            I focus on <span className="text-foreground">building quality products</span>, bringing
-            over 15 years of experience to every decision and working with AI tools like Codex,
-            Claude, Claude Design, and Devin to take ideas from concept to launch.
+            I’m an <span className="text-foreground">AI Engineer who builds with AI every day</span>
+            . With 15+ years in software, I build AI-powered products and work with AI as my
+            right-hand partner, from exploring an idea to shipping it.
           </p>
           <p className="mt-4 max-w-[65ch] text-secondary">
-            I build web platforms with Next.js, TypeScript, Tailwind CSS, Convex, and Supabase, and
-            native apps with React Native. My go-to choices are Better Auth for authentication and
-            Stripe for payments.
+            My focus is AI agents, MCP servers, and LLM integrations, backed by deep experience in
+            Next.js, TypeScript, Python, and full-stack product development. At Coverbase, I build
+            AI features with the Claude API, Next.js, and Convex.
           </p>
           <p className="mt-4 max-w-[65ch] text-secondary">
-            As a Convex Champion, I’m passionate about Convex and reactive programming, an interest
-            that started with Meteor.js in 2014.
+            I use Claude Code, Codex, Herdr, and Engram in my daily workflow, alongside Workers AI
+            for AI-powered applications. As a Convex Champion, I share a passion for reactive
+            software that started with Meteor.js in 2014.
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-1">
             <a href="mailto:julianfullstackdev@gmail.com" className="text-link">
@@ -69,11 +70,25 @@ export default function Page() {
         <h2 id="approach-title">How I work</h2>
         <div className="space-y-5 text-secondary">
           <p>
-            I work across the product: translating ideas into interfaces and connecting them to the
-            systems underneath. I enjoy collaborating with teams to turn a product direction into
-            working software.
+            AI is part of how I think and build: I use it to explore solutions, plan changes, write
+            and review code, debug, and automate repetitive work. I give agents context and
+            direction, then review and validate their output with the same engineering judgment I
+            bring to the rest of the product.
+          </p>
+          <p>
+            I also build AI into products through agents, MCP servers, and LLM integrations. My
+            background in software architecture, scaling products, and leading engineering teams
+            helps me connect those capabilities to useful, working software.
           </p>
           <dl className="skill-list">
+            <div>
+              <dt>AI</dt>
+              <dd>AI agents, MCP servers, LLM integrations, Claude API, Workers AI</dd>
+            </div>
+            <div>
+              <dt>AI tools</dt>
+              <dd>Claude Code, Codex, Herdr, Engram, Claude Design, Devin</dd>
+            </div>
             <div>
               <dt>Web</dt>
               <dd>Next.js, React, TypeScript, Tailwind CSS</dd>
@@ -84,15 +99,19 @@ export default function Page() {
             </div>
             <div>
               <dt>Backend</dt>
-              <dd>Convex, Supabase, Node.js, PostgreSQL, GraphQL</dd>
+              <dd>Node.js, Python, FastAPI, Django, GraphQL</dd>
+            </div>
+            <div>
+              <dt>Data</dt>
+              <dd>Convex, PostgreSQL, Supabase, MongoDB</dd>
             </div>
             <div>
               <dt>Auth & pay</dt>
               <dd>Better Auth, Stripe</dd>
             </div>
             <div>
-              <dt>AI tools</dt>
-              <dd>Codex, Claude, Claude Design, Devin</dd>
+              <dt>English</dt>
+              <dd>C1 · Advanced</dd>
             </div>
             <div>
               <dt>Ship</dt>

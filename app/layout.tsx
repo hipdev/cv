@@ -12,14 +12,17 @@ const inter = localFont({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://julianux.com'),
-  title: { default: 'Julián David — Senior Product Engineer', template: '%s — Julián David' },
+  title: {
+    default: 'Julián David — AI Engineer & Senior Full-Stack Engineer',
+    template: '%s — Julián David',
+  },
   description:
-    'Senior product engineer and Convex Champion combining 15+ years of experience with AI to build quality web platforms and native apps.',
+    'AI Engineer and Convex Champion with 15+ years in software. Building AI agents, MCP servers, and LLM integrations with Next.js, TypeScript, Python, and Convex.',
   icons: { icon: '/favicon.png' },
   openGraph: {
-    title: 'Julián David — Senior Product Engineer',
+    title: 'Julián David — AI Engineer & Senior Full-Stack Engineer',
     description:
-      'Building quality products with AI, Next.js, TypeScript, Convex, Supabase, and React Native.',
+      'Building AI-powered products and working with AI every day: agents, MCP servers, Claude Code, Codex, and Workers AI.',
     type: 'website',
     locale: 'en_US',
     siteName: 'Julián David',
